@@ -3,7 +3,7 @@ title: "Denolle Quake Lab - People"
 layout: gridlay
 excerpt: "Denolle Quake Lab: People"
 sitemap: false
-permalink: /people/
+permalink: /group/
 ---
 
 # Group Members
