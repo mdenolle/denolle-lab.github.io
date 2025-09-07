@@ -1,15 +1,16 @@
 ---
-title: "Denolle Quake Lab - People"
+title: "Denolle Lab - People"
 layout: gridlay
-excerpt: "Denolle Quake Lab: People"
+excerpt: "Denolle Lab: People"
 sitemap: false
-permalink: /group/
+permalink: /people/
 ---
 
-# Group Members
+# People
 ---
 
-If graduate student come with  For new applicants and incoming group members, please see our [group guidelines](https://github.com/Denolle-Lab/working_as_a_group/blob/main/onboarding.md). Our group also defined a [working contract](https://github.com/Denolle-Lab/working_as_a_group/blob/main/Work_contract.md).
+
+If graduate student come with  For new applicants and incoming people, please see our [group guidelines](https://github.com/Denolle-Lab/working_as_a_group/blob/main/onboarding.md). Our group also defined a [working contract](https://github.com/Denolle-Lab/working_as_a_group/blob/main/Work_contract.md).
 
 Jump to [postdocs](#postdocs), [graduate students](#graduate-students), [undergraduate researchers](#undergraduate-researchers), [affiliated graduate students](#affiliated-graduate-students), and [alumni](#alumni).
 
