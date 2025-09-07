@@ -1,7 +1,7 @@
 ---
-title: "Denolle Quake Lab - Research"
+title: "Denolle Lab - Research"
 layout: textlay
-excerpt: "Denolle Quake Lab -- Research"
+excerpt: "Denolle Lab -- Research"
 sitemap: false
 permalink: /research/
 ---

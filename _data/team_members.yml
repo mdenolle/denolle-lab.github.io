@@ -1,10 +1,11 @@
-- name: Marine Denolle
-  cv: ../downloads/Marine_CV_complete.pdf
-  photo: portrait_color_square.png
-  info: Associate Professor
-  email: mdenolle@uw.edu
-  number_educ: 2
-  short_description: "Associate Professor — Seismology, Environmental seismology, Distributed Acoustic Sensing, Machine Learning"
-  education1: 2014, Stanford University
-  education2: Postdoc at Scripps Institution of Oceanography - UC San Diego
-
+- id: marine-denolle
+  name: Marine Denolle
+  # cv: ../downloads/Marine_CV_complete.pdf
+  photo: marine.jpg
+  # info: Associate Professor
+  # email: mdenolle@uw.edu
+  # number_educ: 2
+  short_description: "Associate Professor"
+  # education1: 2014, Stanford University
+  # education2: Postdoc at Scripps Institution of Oceanography - UC San Diego"
+  
