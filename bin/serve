@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+set -euo pipefail
+rm -rf _site .jekyll-cache .sass-cache
+bundle exec jekyll serve --livereload --trace
