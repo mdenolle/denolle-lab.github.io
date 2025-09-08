@@ -17,22 +17,22 @@ links: https://ess.uw.edu/people/marine-denolle/
 
 # Marine Denolle
 
-<div style="display: flex; align-items: center; gap: 2rem; flex-wrap: wrap;">
+<div style="display: flex; align-items: center; gap: 2rem;flex-wrap: wrap;">
   <img src="{{ site.baseurl }}/images/teampic/{{ page.photo }}" class="rounded-circle" style="width:160px;height:160px;object-fit:cover;border:3px solid #eee;" alt="{{ page.title }}">
-  <div>
-    <h2 style="margin-bottom:0.5rem;">{{ page.title }}</h2>
-    <span style="font-size:1.1rem; color:#555;">{{ page.short_description }}</span><br>
-    <span style="font-size:1rem; color:#888;">Associate Professor</span>
-    <div style="margin-top:1rem;">
-      {% if page.website %}<a href="{{ page.website }}" target="_blank" title="Website">🌐</a>{% endif %}
-      {% if page.scholar %}<a href="{{ page.scholar }}" target="_blank" title="Google Scholar">{{ site.scholar_icon | raw }}</a>{% endif %}
-      {% if page.orcid %}<a href="{{ page.orcid }}" target="_blank" title="ORCID">{{ site.orcid_icon | raw }}</a>{% endif %}
-      {% if page.github %}<a href="{{ page.github }}" target="_blank" title="GitHub">{{ site.github_icon | raw }}</a>{% endif %}
-      {% if page.linkedin %}<a href="{{ page.linkedin }}" target="_blank" title="LinkedIn">{{ site.linkedin_icon | raw }}</a>{% endif %}
-      {% if page.email %}<a href="mailto:{{ page.email }}" title="Email">✉️</a>{% endif %}
-      {% if page.cv %}<a href="{{ page.cv }}" target="_blank" title="CV">📄</a>{% endif %}
+    <div>
+        <h2 style="margin-bottom:0.5rem;">{{ page.title }}</h2>
+        <span style="font-size:1.1rem; color:#555;">{{ page.short_description }}</span><br>
+        <span style="font-size:1rem; color:#888;">Associate Professor</span>
+        <div style="margin-top:1rem;">
+            {% if page.website %}<a href="{{ page.website }}" target="_blank" title="Website">🌐</a>{% endif %}
+            {% if page.scholar %}<a href="{{ page.scholar }}" target="_blank" title="Google Scholar">{{ site.scholar_icon | raw }}</a>{% endif %}
+            {% if page.orcid %}<a href="{{ page.orcid }}" target="_blank" title="ORCID">{{ site.orcid_icon | raw }}</a>{% endif %}
+            {% if page.github %}<a href="{{ page.github }}" target="_blank" title="GitHub">{{ site.github_icon | raw }}</a>{% endif %}
+            {% if page.linkedin %}<a href="{{ page.linkedin }}" target="_blank" title="LinkedIn">{{ site.linkedin_icon | raw }}</a>{% endif %}
+            {% if page.email %}<a href="mailto:{{ page.email }}" title="Email">✉️</a>{% endif %}
+            {% if page.cv %}<a href="{{ page.cv }}" target="_blank" title="CV">📄</a>{% endif %}
+        </div>
     </div>
-  </div>
 </div>
 
 ---
@@ -54,13 +54,8 @@ At the core of sy work is a belief that science must serve people. I leads colla
 - [ESS Profile](https://ess.uw.edu/people/marine-denolle/)
 - [GP Youtube](https://www.youtube.com/@uwgeophysics6888)
 - [SCOPED Youtube](https://www.youtube.com/@scoped6259)
----
+
 
 ## About Fun
 Marine has 3 awesome children, loves running, skiing, traveling, and baking baguette.
-
-## Links
-- [Google Scholar](https://scholar.google.com/citations?user=JaneDoe)
-- [ORCID](https://orcid.org/0000-0000-0000-0000)
-- [Github](https://github.com/mdenolle)
-
+---
