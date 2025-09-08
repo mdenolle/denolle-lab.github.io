@@ -8,8 +8,9 @@ short_description: "Postdoc — Glaciologist, interested in ice dynamics and cli
 email: jane@uw.edu
 cv: /downloads/JaneDoe_CV.pdf
 website: https://janedoe.com
+scholar: https://scholar.google.com/citations?user=JaneDoe
+orcid: https://orcid.org/0000-0000-0000-0000
 ---
-
 # Jane Doe
 
 <img src="{{ site.baseurl }}/images/teampic/{{ page.photo }}" class="rounded-circle" style="width:180px;height:180px;object-fit:cover;float:right;margin-left:20px;" alt="{{ page.title }}">
