@@ -1,0 +1,33 @@
+---
+layout: default
+---
+<main class="container my-4">
+  <h1 class="mb-3">{{ page.title }}</h1>
+
+  {% assign list = site.data.team_members %}
+  {% assign sorted_by_name = list | sort: "name" %}
+  {% assign people = sorted_by_name | sort: "order" %}
+
+  <div class="row">
+    {% for p in people %}
+      {% assign slug = p.slug | default: p.id | default: p.name | slugify %}
+      {% assign default_href = "/people/" | append: slug | append: "/" %}
+      {% assign href = p.url | default: default_href %}
+      <div class="col-md-4 col-sm-6 mb-4">
+        <div class="card text-center">
+          <a href="{{ href | relative_url }}">
+            {% if p.photo %}
+              <img src="{{ '/images/teampic/' | append: p.photo | relative_url }}" class="rounded-circle mx-auto d-block" style="width:150px;height:150px;object-fit:cover;" alt="{{ p.name | escape }}">
+            {% else %}
+              <div class="mx-auto my-3" style="width:150px;height:150px;border-radius:50%;background:#eee;"></div>
+            {% endif %}
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">{{ p.name }}</h5>
+            {% if p.role %}<p class="card-text">{{ p.role }}</p>{% endif %}
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</main>

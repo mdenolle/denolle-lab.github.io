@@ -2,7 +2,7 @@
 layout: member
 id: marine-denolle
 title: "Marine Denolle"
-permalink: /_pages/people/marine-denolle/
+permalink: /people/marine-denolle/
 photo: marine.jpg
 short_description: "Professor - At the intersection of Geophysics, Geohazards, Climate, and AI"
 email: mdenolle@uw.edu
