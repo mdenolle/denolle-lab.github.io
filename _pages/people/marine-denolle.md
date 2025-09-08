@@ -25,10 +25,10 @@ links: https://ess.uw.edu/people/marine-denolle/
     <span style="font-size:1rem; color:#888;">Associate Professor</span>
     <div style="margin-top:1rem;">
       {% if page.website %}<a href="{{ page.website }}" target="_blank" title="Website">🌐</a>{% endif %}
-      {% if page.scholar %}<a href="{{ page.scholar }}" target="_blank" title="Google Scholar">📚</a>{% endif %}
-      {% if page.orcid %}<a href="{{ page.orcid }}" target="_blank" title="ORCID">🟢</a>{% endif %}
-      {% if page.github %}<a href="{{ page.github }}" target="_blank" title="GitHub">🐙</a>{% endif %}
-      {% if page.linkedin %}<a href="{{ page.linkedin }}" target="_blank" title="LinkedIn">💼</a>{% endif %}
+      {% if page.scholar %}<a href="{{ page.scholar }}" target="_blank" title="Google Scholar">{{ site.scholar_icon | raw }}</a>{% endif %}
+      {% if page.orcid %}<a href="{{ page.orcid }}" target="_blank" title="ORCID">{{ site.orcid_icon | raw }}</a>{% endif %}
+      {% if page.github %}<a href="{{ page.github }}" target="_blank" title="GitHub">{{ site.github_icon | raw }}</a>{% endif %}
+      {% if page.linkedin %}<a href="{{ page.linkedin }}" target="_blank" title="LinkedIn">{{ site.linkedin_icon | raw }}</a>{% endif %}
       {% if page.email %}<a href="mailto:{{ page.email }}" title="Email">✉️</a>{% endif %}
       {% if page.cv %}<a href="{{ page.cv }}" target="_blank" title="CV">📄</a>{% endif %}
     </div>
