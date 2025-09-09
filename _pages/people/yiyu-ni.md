@@ -35,3 +35,6 @@ linkedin: https://www.linkedin.com/in/yiyu-ni-501441182/
 - Earthquake monitoring
 - Computational and seismology
 - Machine Learning
+
+## Education
+- B.S. in Geophysics - Jilin University, China, 2020
