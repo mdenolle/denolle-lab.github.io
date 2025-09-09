@@ -1,12 +1,12 @@
 - id: marine-denolle
   name: Marine Denolle
   role: Associate Professor
-  photo: marine.jpg
+  photo: marine-denolle.jpg
 - id: michael-hemmett
   name: Michael Hemmett
   role: Graduate Student
   photo: michael-hemmett.jpg
-# - id: yiyu-ni
-#   name: Yiyu Ni
-#   role: Graduate Student
-#   photo: niyiyu.jpeg
+- id: yiyu-ni
+  name: Yiyu Ni
+  role: Graduate Student
+  photo: yiyu-ni.jpg

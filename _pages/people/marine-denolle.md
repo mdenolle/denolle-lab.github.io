@@ -3,7 +3,7 @@ layout: member
 id: marine-denolle
 title: "Marine Denolle"
 permalink: /people/marine-denolle/
-photo: marine.jpg
+photo: marine-denolle.jpg
 short_description: "Professor - At the intersection of Geophysics, Geohazards, Climate, and AI"
 email: mdenolle@uw.edu
 cv: /downloads/Marine_CV_complete.pdf
@@ -14,8 +14,6 @@ github: https://github.com/mdenolle
 linkedin: https://www.linkedin.com/in/marine-denolle-b528144b/
 links: https://ess.uw.edu/people/marine-denolle/
 ---
-
-# Marine Denolle
 
 <div style="display: flex; align-items: center; gap: 2rem;flex-wrap: wrap;">
 <img src="{{ site.baseurl }}/images/teampic/{{ page.photo }}" class="rounded-circle" style="width:160px;height:160px;object-fit:cover;border:3px solid #eee;" alt="{{ page.title }}">
@@ -66,4 +64,3 @@ At the core of sy work is a belief that science must serve people. I leads colla
 
 ## About Fun
 Marine has 3 awesome children, loves running, skiing, traveling, and baking baguette.
----

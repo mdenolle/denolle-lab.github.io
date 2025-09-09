@@ -3,7 +3,7 @@ layout: member
 id: michael-hemmett
 title: "Michael Hemmett"
 permalink: /people/michael-hemmett/
-photo: michael-hemmett.png
+photo: michael-hemmett.jpg
 short_description: "Graduate Student - Marine Geophysics and Seismology"
 email: mhemmett@uw.edu
 cv: 
@@ -14,8 +14,6 @@ github: https://github.com/mhemmett
 linkedin: www.linkedin.com/in/michael-hemmett-98ba8a217
 links: 
 ---
-
-# Michael Hemmett
 
 <div style="display: flex; align-items: center; gap: 2rem;flex-wrap: wrap;">
 <img src="{{ site.baseurl }}/images/teampic/{{ page.photo }}" class="rounded-circle" style="width:160px;height:160px;object-fit:cover;border:3px solid #eee;" alt="{{ page.title }}">
