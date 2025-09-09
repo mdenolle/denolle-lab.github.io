@@ -42,6 +42,7 @@ I am an Earth scientist and associate professor at the University of Washington,
 
 At the core of sy work is a belief that science must serve people. I leads collaborative projects that fuse massive sensor networks, satellite observations, and AI-driven models into open, trustworthy science push the frontiers of discovery but also train the next generation of interdisciplinary researchers.
 
+
 ## Research - Disciplinary Interests
 - Geohazard Monitoring and Characterizing
 - AI for Scientific Discovery and Automation
@@ -49,6 +50,13 @@ At the core of sy work is a belief that science must serve people. I leads colla
 - CyberInfrastructure development for open and reproducible science
 - Climate effects on geohazards
 
+## Education
+- Ph.D., Stanford University, USA, 2014
+- Master of Science - Ecole Normal Supérieure, Paris, 2008
+
+
+## Latest
+- Peta-scale Deployment of Deep Learning Models on the cloud, featured by escience.
 
 ## More Links
 - [ESS Profile](https://ess.uw.edu/people/marine-denolle/)
