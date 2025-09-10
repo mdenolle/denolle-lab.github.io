@@ -20,7 +20,8 @@ links: https://ess.uw.edu/people/marine-denolle/
 <div>
 <h2 style="margin-bottom:0.5rem;">{{ page.title }}</h2>
 <span style="font-size:1.1rem; color:#555;">{{ page.short_description }}</span><br>
-<span style="font-size:1rem; color:#888;">Associate Professor</span>
+{% assign member = site.data.team_members | where: "id", page.id | first %}
+<span style="font-size:1rem; color:#888;">{{ member.role }}</span>
 <div style="margin-top:1rem;">
 {% if page.website %}<a href="{{ page.website }}" target="_blank" title="Website">🌐</a>{% endif %}
 {% if page.scholar %}<a href="{{ page.scholar }}" target="_blank" title="Google Scholar">{{ site.scholar_icon | raw }}</a>{% endif %}

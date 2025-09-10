@@ -1,0 +1,15 @@
+key: geoscience-ai
+title: Geoscience and AI
+preview_blurb: Physics-guided AI fuses simulations and sensing to forecast climate and compounding hazard impacts.
+summary: >
+  We harness physics-based simulations, in-situ and remote sensing data to gain predictive
+  understanding of the impact of climate and geohazards on compounding hazards.
+featured: true
+order: 30
+image: /images/researchpic/geoscience-ai.jpg
+tags: [AI, machine-learning, physics-informed, remote-sensing, climate, hazards, forecasting]
+links:
+  - text: Overview
+    url: /research/geoscience-and-ai/
+  - text: Selected papers
+    url: /publications/#geoscience-ai

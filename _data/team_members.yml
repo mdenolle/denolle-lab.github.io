@@ -2,11 +2,20 @@
   name: Marine Denolle
   role: Associate Professor
   photo: marine-denolle.jpg
+  research_areas: environment, earthquakes, geoscience-ai
 - id: michael-hemmett
   name: Michael Hemmett
   role: Graduate Student
   photo: michael-hemmett.jpg
+  research_areas: earthquakes
 - id: yiyu-ni
   name: Yiyu Ni
   role: Graduate Student
   photo: yiyu-ni.jpg
+  research_areas: geoscience-ai, earthquakes
+- id: lydia-kelley
+  name: Lydia Kelley
+  role: Undergraduate Student
+  photo: lydia.jpg
+  research_areas: earthquakes
+
