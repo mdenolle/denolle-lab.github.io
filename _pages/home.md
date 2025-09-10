@@ -60,6 +60,8 @@ Our mantra encapsulates our commitment to:
 * Empowering our members through modern AI-aided practices and open-source workflows.
 
 
+{% include research_preview_section.html title=false %}
+
 ***SSA UPDATES***
 * SSA 2024 **[Denolle et al, 2024: SCOPED Update](https://docs.google.com/presentation/d/1QL_yfaMfcH_zC1mIyAlHTM2ms2FX8yAN22WpA-l_suY/edit?usp=drive_link)**
 
@@ -78,3 +80,23 @@ Group Presentations to conferences
 We are located in Seattle, WA, at the University of Washington, in the heart of the Pacific Northwest (PNW). The PNW is a wonderful natural laboratory to monitor earthquakes, landslides, volcanoes, glaciers, and more broadly speaking the subduction-zone environment.
 
  **We are looking for new graduate students, postdocs, and undergraduate researcher** [(more info)]({{ site.url }}{{ site.baseurl }}/openings) **!**
+
+<script>
+(function(){
+  const els = document.querySelectorAll('.reveal-on-scroll');
+  const obs = new IntersectionObserver((entries)=>{
+    entries.forEach(e=>{
+      if(e.isIntersecting){
+        e.target.classList.add('revealed');
+        obs.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.15 });
+  els.forEach(el=>obs.observe(el));
+})();
+</script>
+<style>
+.reveal-on-scroll { opacity: 0; transform: translateY(12px); transition: opacity .5s ease, transform .5s ease; }
+.reveal-on-scroll.revealed { opacity: 1; transform: none; }
+</style>
+
