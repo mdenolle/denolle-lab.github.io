@@ -3,7 +3,7 @@ title: "Denolle Lab - People"
 layout: gridlay
 excerpt: "Denolle Lab: People"
 sitemap: false
-permalink: /people
+permalink: /people/
 ---
 
 # People
