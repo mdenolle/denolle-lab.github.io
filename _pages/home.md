@@ -60,6 +60,7 @@ Our mantra encapsulates our commitment to:
 * Empowering our members through modern AI-aided practices and open-source workflows.
 
 
+# Research Preview
 {% include research_preview_section.html title=false %}
 
 ***SSA UPDATES***

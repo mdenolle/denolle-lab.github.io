@@ -16,28 +16,28 @@ Uses existing _data/research/*.yml files.
 {% endif %}
 
 <section class="research-preview reveal-on-scroll" id="research-preview">
-  {% if include.title != false %}
-    <h2 class="rp-title">{{ include.title | default: "Research Preview" }}</h2>
-  {% endif %}
-  <div class="preview-grid">
-    {% for a in featured %}
-      <article class="preview-card">
-        {% if a.image %}
-          <img src="{{ a.image }}" alt="{{ a.title }}">
-        {% endif %}
-        <h3>{{ a.title }}</h3>
-        <p class="blurb">
-          {% if a.preview_blurb %}{{ a.preview_blurb }}{% else %}{{ a.summary | truncate: 140 }}{% endif %}
-        </p>
-        {% assign overview = a.links | where: "text", "Overview" | first %}
-        {% if overview %}
-          <a class="cta" href="{{ overview.url }}">Know more →</a>
-        {% else %}
-          <a class="cta" href="/research/#{{ a.key }}">Know more →</a>
-        {% endif %}
-      </article>
-    {% endfor %}
-  </div>
+{% if include.title != false %}
+<h2 class="rp-title">{{ include.title | default: "Research Preview" }}</h2>
+{% endif %}
+<div class="preview-grid">
+{% for a in featured %}
+<article class="preview-card">
+{% if a.image %}
+  <img src="{{ a.image }}" alt="{{ a.title }}">
+{% endif %}
+<h3>{{ a.title }}</h3>
+<p class="blurb">
+  {% if a.preview_blurb %}{{ a.preview_blurb }}{% else %}{{ a.summary | truncate: 140 }}{% endif %}
+</p>
+{% assign overview = a.links | where: "text", "Overview" | first %}
+{% if overview %}
+  <a class="cta" href="{{ overview.url }}">Know more →</a>
+{% else %}
+  <a class="cta" href="/research/#{{ a.key }}">Know more →</a>
+{% endif %}
+</article>
+{% endfor %}
+</div>
 </section>
 
 <style>

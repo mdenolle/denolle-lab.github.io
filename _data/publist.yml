@@ -1,210 +1,1169 @@
-
-
-- title: "Imaging the Kanto Basin bedrock with earthquake and noise autocorrelation functions, Submitted to Geophysical Journal International"
-  authors: Viens, L., Jiang, C., Denolle, M. A.
-  link: 
-    url: https://www.dropbox.com/s/lkfnm447z05xvi1/ViensJiangDenolle2021.pdf?dl=0
-    display: Viens et al, 2021
-
-- title: "The Earth's Surface Controls the Depth‐Dependent Seismic Radiation of Megathrust Earthquakes, 2021, doi:10.1029/2021AV000413"
-  authors: Yin, J.(*), Denolle, M. A.
-  link:
-   url: https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2021AV000413
-   display: Yin and Denolle (2021)
-  link2:
-   url: https://eos.org/editor-highlights/the-highs-and-the-lows-of-megathrust-earthquakes
-   display: Editor Highlight
-
-   
-
-- title: "Comparing approaches to measuring seismic phase variations in the time, frequency, and wavelet domains, 2021, Geophys. J. International, 226(2), pp 828–846, doi:10.1093/gji/ggab140"
-  authors: Yuan, C.(*), Bryan, J.(*), Denolle, M. A.
-  link:
-   url: https://www.dropbox.com/s/7xehk0zapx5ahxc/YuanBryanDenolle2021.pdf?dl=0
-   display:  Yuan et al, 2021
-
-
-- title: "Source time function clustering reveals patterns in earthquake dynamics, 2021, Seismological Research Letters, 92(4), pp 2343–2353, doi:10.1785/0220200403"
-  authors:  Yin, J.(*), Li, Z., Denolle, M. A.
-  link:
-    url: https://www.dropbox.com/s/rl4wwffwblh5s8b/YinLiDenolle2021.pdf?dl=0
-    display: Yin et al, 2021
-
-- title: "SeisNoise.jl:Ambient Seismic Noise Cross-Correlation on the CPU and GPU in Julia, 2021, Seism. Res. Letters, 92(1), pp 517–527, doi:10.1785/0220200192"
-  authors: Clements, T.(*), Denolle, M. A.
-  link:
-    url: https://www.dropbox.com/s/fg2kbhrelyjntlk/ClementsDenolle2021.pdf?dl=0
-    display: Clements and Denolle (2021)
-    
-- title: "SeisIO: a fast, efficient geophysical data architecture for the Julia language, 2020, Seism. Res. Letters, 91(4), pp 2368–2377, doi:10.1785/0220190295 "
-  authors: Jones, J. P. , Okubo, K.(*), Clements, T.(*), Denolle, M. A.
-  link:
-   url: https://www.dropbox.com/s/500z4knia47ex3i/Jones_etal2020.pdf?dl=0
-   display: Jones et al, 2021
-
-- title: "NoisePy:a high-performance tool in python for ambient noise seismology, 2020, Seism. Res. Letters, 91, pp 1853–1866, doi:10.1785/0220190364"
-  authors: Jiang, C.(*),  Denolle, M. A.
-  link:
-    url: https://www.dropbox.com/s/lnitjd7wzgu17h1/JiangDenolle20.pdf?dl=0
-    display: Jiang and Denolle, 2021
-
-
-- title: "Exposing Los Angeles’s shaky geologic underbelly,  2019, Eos, 100, doi:10.1029/2019EO135099"
-  authors: Clayton, R. W., P. Persaud, M. Denolle, and J. Polet
-  link:
-    url: https://eos.org/science-updates/exposing-los-angeless-shaky-geologic-underbelly
-    display: Clayton et al. (2019)
-
-- title: "Earthquakes Within Earthquakes: Patterns in Rupture Complexity, 2019, Geophys. Res. Lett., 43(13), pp 7352-7360, doi:10.1029/2019GL083093 "
-  authors:  Danre, P. (*), Yin J., Lipovsky B.,  Denolle, M. A.
-  link:
-    url: https://www.dropbox.com/s/kgyx2sgyha7hk68/Danre_etal2019.pdf?dl=0
-    display: Danre et al (2019)
-
-- title: "Long-period ground motions from past and virtual megathrust earthquakes along the Nankai Trough, Japan, 2019, Bull. Seismol. Soc. Am., 109(4), pp 1312-1330, doi:10.1785/0120180320"
-  authors:  Viens, L. (*),  Denolle, M. A.
-  link:
-    url: https://www.dropbox.com/s/klt9d2kmd7j5cfz/ViensDenolle19.pdf?dl=0
-    display: Viens and Denolle (2019)
-
-- title: "Energetic Onset of Earthquakes, 2019, Geophys. Res. Lett., 46(5), pp 2458-2466, doi:10.1029/2018GL080687"
-  authors: Denolle, M. A.
-  link:
-    url: https://www.dropbox.com/s/yof3w4ptavirl27/Denolle19.pdf?dl=0
-    display: Denolle (2019) 
-
-- title: "Relating teleseismic backprojection images to earthquake kinematics, 2019, Geophys. J. Int., 217(2), pp 729–747, doi:10.1093/gji/ggz048"
-  authors: Yin J. (*), Denolle, M.
-  link:
-    url: https://www.dropbox.com/s/v7jbeqndv5wp2bv/Yin_Denolle19.pdf?dl=0
-    display:  Yin and Denolle (2019)
-
-- title: "Geometric Controls on Pulse-like Rupture in a Dynamic Model of the 2015 Gorkha Earthquake, 2019, J. Geophys. Res., 124(2), pp 1544-1568, doi:10.1029/2018JB016602 "
-  authors: Wang, Y.,  Denolle, M. , S. M. Day
-  link:
-    url: https://www.dropbox.com/s/hftz64y57l7am4p/Wang_et_al-2019-Journal_of_Geophysical_Research__Solid_Earth.pdf?dl=0
-    display: Wang et al (2019)
-
-- title: "Tracking ground water using the ambient seismic field, 2018, Geophys. Res. Lett., 123(4), pp 2923-294, doi:10.1029/2018GL077706"
-  authors: Clements (*), T., Denolle, M.
-  link:
-    url: https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2018GL077706
-    display: Clements and Denolle (2018)
-
-- title: "Strong Shaking Expected in Tokyo from an Expected M7+ Itoigawa-Shizuoka Earthquake,  2018, J. Geophys. Res.}, 123(5), pp 3968-3992, doi:10.1029/2017JB015184"
-  authors: Denolle, M., P. Boue, N. Hirata, S. Nakagawa, G. C. Beroza
-  link:
-    url: https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2017JB015184
-    display: Denolle et al. (2018)
-
-- title: "Improved model fitting for the empirical Green's function approach using hierarchical models, 2018, J. Geophys. Res. 123(4), pp 2923-2942, doi:10.1002/2017JB014943 "
-  authors: Van Houtte, C. (*), Denolle M.
-  link:
-    url: https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2017JB014943
-    display:  Van Houtte and Denolle (2018)
-
-- title: "Complex Near‐Surface Rheology Inferred From the Response of Greater Tokyo to Strong Ground Motions, 2018, J. Geophys. Res. 123(7), pp 5710-5729, doi:10.1029/2018JB015697"
-  authors: Viens, L. (*), M. Denolle, S. Nakagawa, N. Hirata
-  link:
-    url: https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2018JB015697
-    display: Viens et al. (2018)
-
-- title: "Spatial and Temporal Evolution of Earthquake Dynamics: Case Study of the Mw 8.3 Illapel Earthquake, Chile,  2018, J. Geophys. Res., 123(1), pp 344-367, doi:10.1002/2017JB014265"
-  authors: Yin, J. (*), Denolle, M.,  Yao, H.
-  link:
-    url: https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2017JB014265
-    display: Yin et al. (2018)
-
-- title: "Convolutional Neural Network for Earthquake Detection and Location,  2018, Sciences Advances, 4(2), pp e1700578, doi:10.1126/sciadv.1700578 "
-  authors: Perol, T. (*),  M. Denolle}, Gharbi, M.
-  link:
-    url: https://www.science.org/doi/10.1126/sciadv.1700578
-    display: Perol et al. (2018)
-
-
-- title: "Multi-Component C3 Green's Functions for Improved Long-Period Ground Motion Prediction, 2017, Bull. Seismol. Soc. Am., 107(6), pp 2836-2845, doi:10.1785/0120170053"
-  authors: Sheng, Y., M. Denolle, G. C. Beroza
-  link:
-    url: https://www.dropbox.com/s/8ykodvcun8ga82d/Sheng_etal17.pdf?dl=0
-    display:  Sheng et al. (2017)
-
-
-- title: "Retrieving impulse response function amplitudes from the ambient seismic field, 2017, Geophys. J. Int., 210(1), pp 210-222, doi:10.1093/gji/ggx155 "
-  authors:  Viens, L. (*),  M. Denolle, Miyake, H., Sakai, S., and Nakagawa, S.
-  link:
-    url: https://www.dropbox.com/s/9or7rjdztqjodwl/Viens_etal2017.pdf?dl=0
-    display: Viens et al. (2017)
-
-
-- title: "Beyond Basin Resonance: Characterizing Wave Propagation Using a Dense Array and the Ambient Seismic Field, 2016, Geophys. J. Int., 206(2) pp 1261-1272, doi:10.1093/gji/ggw205"
-  authors:  Boue, P., M. Denolle, N. Hirata, S. Nakagawa, G. C. Beroza
-  link:
-    url: https://www.dropbox.com/s/e1p0o0h6eknjv0r/Boue_etal_2016.pdf?dl=0
-    display: Boue et al. (2016)
-
-- title: "New perspective on self-similarity of shallow thrust earthquakes,  2016, J. Geophys. Res., 121(9), pp 6533-6565,doi:10.1002/2016JB013105"
-  authors: Denolle, M., and P. M. Shearer
-  link:
-    url: https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2016JB013105
-    display: Denolle and Shearer (2016)
-
-- title: "Dynamics of the M7.8 2015 Nepal Earthquake,  2015, Geophys. Res. Lett., 42(18), pp 7467-7475, doi:10.1002/2015GL065336 "
-  authors: Denolle, M., W. Fan, and P. M. Shearer
-  link:
-    url: https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2015GL065336
-    display: Denolle et "Exposing Los Angeles’s shaky geologic underbelly,  2019, Eos, 100, doi:10.1029/2019EO135099"
-
-
-- title: " Full 3D Tomography (F3DT) for Crustal Structure in Southern California Based on the Scattering-Integral (SI) and the Adjoint-Wavefield (AW) Methods, 2014, J. Geophys. Res., 119(8), pp 6421-6451, doi:10.1002/2014JB011236"
-  authors: Lee, E-J, P. Chen, T. H. Jordan, P. B. Maechling, M. Denolle, G. C. Beroza
-  link:
-    url: https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2014JB011346
-    display: Lee et al. (2014)
-
-- title: "Long-period seismic amplification in the Kanto Basin from the ambient seismic field, 2014, Geophys. Res. Lett., 41(18), pp 7467-7475, doi:10.1002/2014/GL059425 "
-  authors: Denolle M., H. Miyake, S. Nakagawa, N. Hirata, G. C. Beroza
-  link:
-    url: https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2014GL059425
-    display: Denolle et al. (2014)
-
-
-- title: " Strong Ground Motion Prediction using Virtual Earthquakes, 2014, Science, 343(6169), pp 399-403, doi:10.1126/science.1245678"
-  authors: Denolle M., E. M. Dunham, G. A. Prieto, and G. C. Beroza
-  link:
-    url: https://www.dropbox.com/s/lwww1roegxlz56p/Denolle_etal14a.pdf?dl=0
-    display: Denolle et al. (2014)
-
-
-- title: "Ground Motion Prediction of Realistic Earthquake Sources Using the Ambient Seismic Field, 2013, J. Geophys. Res., 118(5), pp 2102-2118, doi: 10.1029/2012JB009603"
-  authors: Denolle M., E. M. Dunham, G. A. Prieto, and G. C. Beroza
-  link:
-    url: https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2012JB009603
-    display: Denolle et al, 2013
-
-- title: "A numeric evaluation of attenuation from ambient noise correlation functions, 2013, J. Geophys. Res., 118(12), pp 6134-6145, doi: 10.1002/2012JB009513"
-  authors: Jesse F. Lawrence, M. Denolle, K. J. Seats, and G. Prieto 
-  link:
-    url:  https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2012JB009513
-    display: Lawrence et al. (2013)
-
-
-- title: "Solving the Surface-Wave Eigenproblem with Chebyshev Spectral Collocation, 2012, Bull. Seismol. Soc. Am., 102(3), pp 1214-1223, doi: 10.1785/0120110183 "
-  authors:  Denolle, M., E. M. Dunham, and G. C. Beroza,
-  link:
-    url: https://www.dropbox.com/s/k9wa95x0y1bp7o6/Denolle_etal12.pdf?dl=0
-    display: Denolle et al. (2012)
-
-
-
-- title: "On amplitude carried by the ambient seismic field, 2011,  C. R.  Geosci., Thematic Issue: Imaging and Monitoring with Seismic Noise, 343, pp 600-614, doi: 10.1016/j.crte.2011.03.006 "
-  authors:  Prieto, G. A., M. Denolle, J. F. Lawrence, and G. C. Beroza
-  link:
-    url: https://www.dropbox.com/s/456rzrbqss5hga1/Prieto_etal2011.pdf?dl=0
-    display: Prieto et al. (2011)
-
-
-- title: "Evidence of active backthrusting at the NE Margin of Mentawai Islands, SW, Sumatra, 2010, Geophys. J. Int., 180(2), pp 703-714, doi: 10.1111/j.1365-246X.2009.04458.x"
-  authors: Singh, S., N. Hananto, A. Chauhan, H. Permana, M. Denolle, A. Hendriyana, and D. Natawidjaja
-  link:
-    url: https://www.dropbox.com/s/4mtqje27m0dvq0o/Singh10.pdf?dl=0
-    display: Singh et al. (2010)
+---
+- title: A Global-scale Database of Seismic Phases from Cloud-based Picking at Petabyte
+    Scale
+  authors: Ni,  Yiyu, Denolle,  Marine, Thomas,  Amanda, Hamilton,  Alex, Münchmeyer,  Jannes,
+    Wang,  Yinzhi, Bachelot,  Loïc, Trabant,  Chad, Mencin,  David
+  year: '2025'
+  key: Denolle2025c
+  month: sep
+  journal: Seismica, 4(2)
+  doi: 10.26443/seismica.v4i2.1738
+  url: https://seismica.library.mcgill.ca/article/view/1738
+  bibtex: |
+    @article{Denolle2025c,
+      author = {Ni, Yiyu and Denolle, Marine and Thomas, Amanda and Hamilton, Alex and Münchmeyer, Jannes and Wang, Yinzhi and Bachelot, Loïc and Trabant, Chad and Mencin, David},
+      title = {A Global-scale Database of Seismic Phases from Cloud-based Picking at Petabyte Scale},
+      volume = {4},
+      url = {https://seismica.library.mcgill.ca/article/view/1738},
+      doi = {10.26443/seismica.v4i2.1738},
+      abstractnote = {<p> We present the first global-scale database of 4.3 billion P- and S-wave picks extracted from 1.3 PB continuous seismic data via a cloud-native workflow. Using cloud computing services on Amazon Web Services, we launched ~145,000 containerized jobs on continuous records from 47,354 stations spanning 2002-2025, completing in under three days. Phase arrivals were identified with a deep learning model, PhaseNet, through an open-source Python ecosystem for deep learning, SeisBench. To visualize and gain a global understanding of these picks, we present preliminary results about pick time series revealing Omori-law aftershock decay, seasonal variations linked to noise levels, and dense regional coverage that will enhance earthquake catalogs and machine-learning datasets. We provide all picks in a publicly queryable database, providing a powerful resource for researchers studying seismicity around the world. This report provides insights into the database and the underlying workflow, demonstrating the feasibility of petabyte-scale seismic data mining on the cloud and of providing intelligent data products to the community in an automated manner.</p>},
+      number = {2},
+      journal = {Seismica},
+      year = {2025},
+      month = sep,
+      month_numeric = {9}
+    }
+  tags: []
+- title: A Global-scale Database of Seismic Phases from Cloud-based Picking at Petabyte
+    Scale
+  authors: Ni,  Yiyu, Denolle,  Marine, Thomas,  Amanda, Hamilton,  Alex, Münchmeyer,  Jannes,
+    Wang,  Yinzhi, Bachelot,  Loïc, Trabant,  Chad, Mencin,  David
+  year: '2025'
+  key: Denolle2025a
+  month: sep
+  journal: Seismica, 4(2)
+  doi: 10.26443/seismica.v4i2.1738
+  url: https://seismica.library.mcgill.ca/article/view/1738
+  bibtex: |
+    @article{Denolle2025a,
+      title = {A Global-scale Database of Seismic Phases from Cloud-based Picking at Petabyte Scale},
+      volume = {4},
+      url = {https://seismica.library.mcgill.ca/article/view/1738},
+      doi = {10.26443/seismica.v4i2.1738},
+      number = {2},
+      journal = {Seismica},
+      author = {Ni, Yiyu and Denolle, Marine and Thomas, Amanda and Hamilton, Alex and Münchmeyer, Jannes and Wang, Yinzhi and Bachelot, Loïc and Trabant, Chad and Mencin, David},
+      year = {2025},
+      month = sep,
+      month_numeric = {9}
+    }
+  tags: []
+- title: A Review of Cloud Computing and Storage in Seismology
+  authors: Ni,  Yiyu, Denolle,  Marine A, Münchmeyer,  Jannes, Wang,  Yinzhi, Feng,  Kuan-Fu,
+    Suarez,  Carlos Garcia Jurado, Thomas,  Amanda M, Trabant,  Chad, Hamilton,  Alex,
+    Mencin,  David
+  year: '2025'
+  key: 10.1093/gji/ggaf322
+  month: aug
+  journal: Geophysical Journal International, pp ggaf322
+  doi: 10.1093/gji/ggaf322
+  url: https://doi.org/10.1093/gji/ggaf322
+  bibtex: |
+    @article{10.1093/gji/ggaf322,
+      author = {Ni, Yiyu and Denolle, Marine A and Münchmeyer, Jannes and Wang, Yinzhi and Feng, Kuan-Fu and Suarez, Carlos Garcia Jurado and Thomas, Amanda M and Trabant, Chad and Hamilton, Alex and Mencin, David},
+      title = {A Review of Cloud Computing and Storage in Seismology},
+      journal = {Geophysical Journal International},
+      pages = {ggaf322},
+      year = {2025},
+      month = aug,
+      abstract = {Seismology has entered the petabyte era, driven by decades of continuous recordings of broadband networks, the increase in nodal seismic experiments, and the recent emergence of Distributed Acoustic Sensing (DAS). This review explains how cloud platforms, by providing object storage, elastic compute, and managed databases, enable researchers to “bring the code to the data,” thereby providing a scalable option to overcome traditional HPC solutions’ bandwidth and capacity limitations. After literature reviews of cloud concepts and their research applications in seismology, we illustrate the capacities of cloud-native workflows using two canonical end-to-end demonstrations: 1) ambient noise seismology that calculates cross-correlation functions at scale, and 2) earthquake detection and phase picking. Both workflows utilize Amazon Web Services, a commercial cloud platform for streaming I/O and provenance, demonstrating that cloud throughput can rival on-premises HPC at comparable costs, scanning 100 TBs to 1.3 PBs of seismic data in a few hours or days of processing. The review also discusses research and education initiatives, the reproducibility benefits of containers, and cost pitfalls (e.g., egress, I/O fees) of energy-intensive seismological research computing. While designing cloud pipelines remains non-trivial, partnerships with research software engineers enable converting domain code into scalable, automated, and environmentally conscious solutions for next-generation seismology. We also outline where cloud resources fall short of specialised HPC-most notably for tightly coupled petascale simulations and long-term, PB-scale archives-so that practitioners can make informed, cost-effective choices.},
+      issn = {1365-246X},
+      doi = {10.1093/gji/ggaf322},
+      url = {https://doi.org/10.1093/gji/ggaf322},
+      eprint = {https://academic.oup.com/gji/advance-article-pdf/doi/10.1093/gji/ggaf322/64078811/ggaf322.pdf},
+      month_numeric = {8}
+    }
+  tags: []
+- title: 'Training the Next Generation of Seismologists: Delivering Research‐Grade
+    Software Education for Cloud and HPC Computing Through Diverse Training Modalities'
+  authors: Denolle,  Marine A., Tape,  Carl, Bozdağ,  Ebru, Wang,  Yinzhi, Waldhauser,  Felix,
+    Gabriel,  Alice‐Agnes, Braunmiller,  Jochen, Chow,  Bryant, Ding,  Liang, Feng,  Kuan‐Fu,
+    Ghosh,  Ayon, Groebner,  Nathan, Gupta,  Aakash, Krauss,  Zoe, McPherson,  Amanda
+    M., Nagaso,  Masaru, Niu,  Zihua, Ni,  Yiyu, Örsvuran,  Rıdvan, Pavlis,  Gary,
+    Rodriguez‐Cardozo,  Felix, Sawi,  Theresa, Schaff,  David, Schliwa,  Nico, Schneller,  David,
+    Shi,  Qibin, Thurin,  Julien, Wang,  Chenxiao, Wang,  Kaiwen, Wong,  Jeremy Wing
+    Ching, Wolf,  Sebastian, Yuan,  Congcong
+  year: '2025'
+  key: 10.1785/0220240413
+  month: jun
+  journal: Seismological Research Letters, 96(5), pp 3265-3279
+  doi: 10.1785/0220240413
+  url: https://doi.org/10.1785/0220240413
+  bibtex: |
+    @article{10.1785/0220240413,
+      author = {Denolle, Marine A. and Tape, Carl and Bozdağ, Ebru and Wang, Yinzhi and Waldhauser, Felix and Gabriel, Alice‐Agnes and Braunmiller, Jochen and Chow, Bryant and Ding, Liang and Feng, Kuan‐Fu and Ghosh, Ayon and Groebner, Nathan and Gupta, Aakash and Krauss, Zoe and McPherson, Amanda M. and Nagaso, Masaru and Niu, Zihua and Ni, Yiyu and Örsvuran, Rıdvan and Pavlis, Gary and Rodriguez‐Cardozo, Felix and Sawi, Theresa and Schaff, David and Schliwa, Nico and Schneller, David and Shi, Qibin and Thurin, Julien and Wang, Chenxiao and Wang, Kaiwen and Wong, Jeremy Wing Ching and Wolf, Sebastian and Yuan, Congcong},
+      title = {Training the Next Generation of Seismologists: Delivering Research‐Grade Software Education for Cloud and HPC Computing Through Diverse Training Modalities},
+      journal = {Seismological Research Letters},
+      volume = {96},
+      number = {5},
+      pages = {3265-3279},
+      year = {2025},
+      month = jun,
+      abstract = {With the rise of data volume and computing power, seismological research requires more advanced skills in data processing, numerical methods, and parallel computing. We present the experience of conducting training workshops in various forms of delivery to support the adoption of large‐scale high‐performance computing (HPC) and cloud computing, advancing seismological research. The seismological foci were on earthquake source parameter estimation in catalogs, forward and adjoint wavefield simulations in 2D and 3D at local, regional, and global scales, earthquake dynamics, ambient noise seismology, and machine learning. This contribution describes the series of workshops delivered as part of research projects, the learning outcomes for participants, and lessons learned by the instructors. Our curriculum was grounded on open and reproducible science, large‐scale scientific computing and data mining, and computing infrastructure (access and usage) for HPC and the cloud. We also describe the types of teaching materials that have proven beneficial to the instruction and the sustainability of the program. We propose guidelines to deliver future workshops on these topics.},
+      issn = {0895-0695},
+      doi = {10.1785/0220240413},
+      url = {https://doi.org/10.1785/0220240413},
+      eprint = {https://pubs.geoscienceworld.org/ssa/srl/article-pdf/96/5/3265/7217500/srl-2024413.1.pdf},
+      month_numeric = {6}
+    }
+  tags: []
+- title: Ambient Field Seismology in Critical Zone Hydrological Sciences
+  authors: Denolle,  M, Shi,  Q., T.,  Clements, Viens,  L., Rodriguez-Tribaldos,  V.,
+    Feng,  KK, Cotton,  F
+  year: '2025'
+  key: denolle2025
+  journal: in review in Comptes Rendus de Geosciences
+  bibtex: |
+    @article{denolle2025,
+      title = {Ambient Field Seismology in Critical Zone Hydrological Sciences},
+      author = {Denolle, M and Shi, Q. and T., Clements and Viens, L. and Rodriguez-Tribaldos, V. and Feng, KK and Cotton, F},
+      journal = {in review in Comptes Rendus de Geosciences},
+      year = {2025}
+    }
+  tags: []
+- title: Denoising Offshore Distributed Acoustic Sensing Using Masked Auto-Encoders
+    to Enhance Earthquake Detection
+  authors: Shi,  Q., Denolle,  M. A., Ni,  Y., Williams,  E. F., You,  N.
+  year: '2025'
+  key: ShiEtAl2025a
+  journal: 'JGR: Solid Earth, 130, pp e2024JB029728'
+  doi: 10.1029/2024JB029728
+  bibtex: |
+    @article{ShiEtAl2025a,
+      author = {Shi, Q. and Denolle, M. A. and Ni, Y. and Williams, E. F. and You, N.},
+      title = {Denoising Offshore Distributed Acoustic Sensing Using Masked Auto-Encoders to Enhance Earthquake Detection},
+      journal = {JGR: Solid Earth},
+      volume = {130},
+      pages = {e2024JB029728},
+      year = {2025},
+      doi = {10.1029/2024JB029728}
+    }
+  tags: []
+- title: Multiplexed Distributed Acoustic Sensing Offshore Central Oregon
+  authors: Shi,  Q., Williams,  E. F., Lipovsky,  B. P., Denolle,  M. A., Wilcock,  W.
+    S. D., Kelley,  D. S., Schoedl,  K.
+  year: '2025'
+  key: ShiEtAl2025b
+  journal: Seismological Research Letters, 96(2A), pp 784--800
+  doi: 10.1785/0220240460
+  bibtex: |
+    @article{ShiEtAl2025b,
+      author = {Shi, Q. and Williams, E. F. and Lipovsky, B. P. and Denolle, M. A. and Wilcock, W. S. D. and Kelley, D. S. and Schoedl, K.},
+      title = {Multiplexed Distributed Acoustic Sensing Offshore Central Oregon},
+      journal = {Seismological Research Letters},
+      volume = {96},
+      number = {2A},
+      pages = {784--800},
+      year = {2025},
+      doi = {10.1785/0220240460}
+    }
+  tags: []
+- title: A decadal survey of the near-surface seismic velocity response to hydrological
+    variations in Utah, United States
+  authors: Feng,  KK., Denolle,  M, Lin,  FC, Van Dam,  T
+  year: '2025'
+  key: Feng25
+  journal: in review in Journal of Geophysical Research
+  bibtex: |
+    @article{Feng25,
+      author = {Feng, KK. and Denolle, M and Lin, FC and Van Dam, T},
+      title = {A decadal survey of the near-surface seismic velocity response to hydrological variations in Utah, United States},
+      journal = {in review in Journal of Geophysical Research},
+      year = {2025}
+    }
+  tags: []
+- title: Ambient Field Seismology in Critical Zone Hydrological Sciences
+  authors: Denolle,  Marine, Shi,  Qibin, Clements,  Tim, Viens,  Loic, Rodriguez-Tribaldos,  Veronica,
+    Cotton,  Fabrice
+  year: '2025'
+  key: Denolle2025b
+  journal: Comptes Rendu  Geosciences - Sciences de la Terre, X, pp X
+  doi: in press
+  bibtex: |
+    @article{Denolle2025b,
+      author = {Denolle, Marine and Shi, Qibin and Clements, Tim and Viens, Loic and Rodriguez-Tribaldos, Veronica and Cotton, Fabrice},
+      title = {Ambient Field Seismology in Critical Zone Hydrological Sciences},
+      journal = {Comptes Rendu  Geosciences - Sciences de la Terre},
+      volume = {X},
+      pages = {X},
+      year = {2025},
+      doi = {in press}
+    }
+  tags: []
+- title: Extended crack propagation by local nucleation and rapid transverse expansion
+  authors: Cochard,  T., Svetlizky,  I., Albertini,  G., Viesca,  R. C., Rubinstein,  S.
+    M., Spaepen,  F., Yuan,  C., Denolle,  M., Song,  Y.-Q., Xiao,  L., Weitz,  D.
+    A.
+  year: '2024'
+  key: CochardEtAl2024
+  journal: Nature Physics
+  doi: 10.1038/s41567-023-02365-0
+  bibtex: |
+    @article{CochardEtAl2024,
+      author = {Cochard, T. and Svetlizky, I. and Albertini, G. and Viesca, R. C. and Rubinstein, S. M. and Spaepen, F. and Yuan, C. and Denolle, M. and Song, Y.-Q. and Xiao, L. and Weitz, D. A.},
+      title = {Extended crack propagation by local nucleation and rapid transverse expansion},
+      journal = {Nature Physics},
+      year = {2024},
+      doi = {10.1038/s41567-023-02365-0}
+    }
+  tags: []
+- title: 'Training the Next Generation of Seismologists: Delivering Research-Grade
+    Software Education for Cloud and HPC Computing through Diverse Training Modalities'
+  authors: Denolle,  M, Tape,  C, Bozda\ug,  E, Wang,  Y, Waldhauser,  F, Gabriel,  AA,
+    Braunmiller,  J, Chow,  B, Ding,  L, Feng,  KF, others
+  year: '2024'
+  key: denolle2024training
+  journal: arXiv preprint arXiv:2409.19147
+  bibtex: |
+    @article{denolle2024training,
+      title = {Training the Next Generation of Seismologists: Delivering Research-Grade Software Education for Cloud and HPC Computing through Diverse Training Modalities},
+      author = {Denolle, M and Tape, C and Bozda{\u{g}}, E and Wang, Y and Waldhauser, F and Gabriel, AA and Braunmiller, J and Chow, B and Ding, L and Feng, KF and others},
+      journal = {arXiv preprint arXiv:2409.19147},
+      year = {2024}
+    }
+  tags: []
+- title: Analysing Volcanic, Tectonic, and Environmental Influences on the Seismic
+    Velocity from 25 Years of Data at Mount St. Helens
+  authors: Makus,  P., Denolle,  M. A., Sens-Schonfelder,  C., Kopfli,  M., Tilmann,  F.
+  year: '2024'
+  key: MakusEtAl2024
+  journal: Seismological Research Letters, 95(5), pp 2674--2688
+  doi: 10.1785/0220240088
+  bibtex: |
+    @article{MakusEtAl2024,
+      author = {Makus, P. and Denolle, M. A. and Sens-Sch{\"o}nfelder, C. and K{\"o}pfli, M. and Tilmann, F.},
+      title = {Analysing Volcanic, Tectonic, and Environmental Influences on the Seismic Velocity from 25 Years of Data at Mount St. Helens},
+      journal = {Seismological Research Letters},
+      volume = {95},
+      number = {5},
+      pages = {2674--2688},
+      year = {2024},
+      doi = {10.1785/0220240088}
+    }
+  tags: []
+- title: Examining 22 Years of Ambient Seismic Wavefield at Mount St. Helens
+  authors: Kopli,  M., Denolle,  M. A., Thelen,  W., Makus,  P., Malone,  S.
+  year: '2024'
+  key: KoepliEtAl2024
+  journal: Seismological Research Letters, 95(5), pp 2622--2636
+  doi: 10.1785/0220240079
+  bibtex: |
+    @article{KoepliEtAl2024,
+      author = {K{\"o}pli, M. and Denolle, M. A. and Thelen, W. and Makus, P. and Malone, S.},
+      title = {Examining 22 Years of Ambient Seismic Wavefield at Mount St. Helens},
+      journal = {Seismological Research Letters},
+      volume = {95},
+      number = {5},
+      pages = {2622--2636},
+      year = {2024},
+      doi = {10.1785/0220240079}
+    }
+  tags: []
+- title: 'Wavefield reconstruction of distributed acoustic sensing: Lossy compression,
+    wavefield separation, and edge computing'
+  authors: Ni,  Y., Denolle,  M. A., Shi,  Q., Lipovsky,  B. P., Pan,  S., Kutz,  J.
+    N.
+  year: '2024'
+  key: NiEtAl2024a
+  journal: 'Journal of Geophysical Research: Machine Learning and Computation, 1,
+    pp e2024JH000247'
+  doi: 10.1029/2024JH000247
+  bibtex: |
+    @article{NiEtAl2024a,
+      author = {Ni, Y. and Denolle, M. A. and Shi, Q. and Lipovsky, B. P. and Pan, S. and Kutz, J. N.},
+      title = {Wavefield reconstruction of distributed acoustic sensing: Lossy compression, wavefield separation, and edge computing},
+      journal = {Journal of Geophysical Research: Machine Learning and Computation},
+      volume = {1},
+      pages = {e2024JH000247},
+      year = {2024},
+      doi = {10.1029/2024JH000247}
+    }
+  tags: []
+- title: Impact of Temperature and Relative Humidity Variations on Coda Waves in Concrete
+  authors: Diewald,  F., Denolle,  M., Timothy,  J. J., Gehlen,  C.
+  year: '2024'
+  key: DiewaldEtAl2024
+  journal: Scientific Reports, 14, pp 18861
+  doi: 10.1038/s41598-024-69564-4
+  bibtex: |
+    @article{DiewaldEtAl2024,
+      author = {Diewald, F. and Denolle, M. and Timothy, J. J. and Gehlen, C.},
+      title = {Impact of Temperature and Relative Humidity Variations on Coda Waves in Concrete},
+      journal = {Scientific Reports},
+      volume = {14},
+      pages = {18861},
+      year = {2024},
+      doi = {10.1038/s41598-024-69564-4}
+    }
+  tags: []
+- title: Monitoring velocity change over 20 years at Parkfield
+  authors: Okubo,  K., Delbridge,  B., Denolle,  M.
+  year: '2024'
+  key: OkuboEtAl2023
+  journal: 'Journal of Geophysical Research: Solid Earth, 129, pp e2023JB028084'
+  doi: 10.1029/2023JB028084
+  bibtex: |
+    @article{OkuboEtAl2023,
+      author = {Okubo, K. and Delbridge, B. and Denolle, M.},
+      title = {Monitoring velocity change over 20 years at Parkfield},
+      journal = {Journal of Geophysical Research: Solid Earth},
+      volume = {129},
+      pages = {e2023JB028084},
+      year = {2024},
+      doi = {10.1029/2023JB028084}
+    }
+  tags: []
+- title: An Object Storage for Distributed Acoustic Sensing
+  authors: Ni,  Yiyu, Denolle,  Marine A., Fatland,  Rob, Alterman,  Naomi, Lipovsky,  Bradley
+    P., Knuth,  Friedrich
+  year: '2023'
+  key: 10.1785/0220230172
+  month: oct
+  journal: Seismological Research Letters, 95(1), pp 499-511
+  doi: 10.1785/0220230172
+  url: https://doi.org/10.1785/0220230172
+  bibtex: |
+    @article{10.1785/0220230172,
+      author = {Ni, Yiyu and Denolle, Marine A. and Fatland, Rob and Alterman, Naomi and Lipovsky, Bradley P. and Knuth, Friedrich},
+      title = {An Object Storage for Distributed Acoustic Sensing},
+      journal = {Seismological Research Letters},
+      volume = {95},
+      number = {1},
+      pages = {499-511},
+      year = {2023},
+      month = oct,
+      abstract = {Large‐scale processing and dissemination of distributed acoustic sensing (DAS) data are among the greatest computational challenges and opportunities of seismological research today. Current data formats and computing infrastructure are not well‐adapted or user‐friendly for large‐scale processing. We propose an innovative, cloud‐native solution for DAS seismology using the MinIO open‐source object storage framework. We develop data schema for cloud‐optimized data formats—Zarr and TileDB, which we deploy on a local object storage service compatible with the Amazon Web Services (AWS) storage system. We benchmark reading and writing performance for various data schema using canonical use cases in seismology. We test our framework on a local server and AWS. We find much‐improved performance in compute time and memory throughout when using TileDB and Zarr compared to the conventional HDF5 data format. We demonstrate the platform with a computing heavy use case in seismology: ambient noise seismology of DAS data. We process one month of data, pairing all 2089 channels within 24 hr using AWS Batch autoscaling.},
+      issn = {0895-0695},
+      doi = {10.1785/0220230172},
+      url = {https://doi.org/10.1785/0220230172},
+      eprint = {https://pubs.geoscienceworld.org/ssa/srl/article-pdf/95/1/499/6201439/srl-2023172.1.pdf},
+      month_numeric = {10}
+    }
+  tags: []
+- title: 'Discrimination between icequakes and earthquakes in southern Alaska: an
+    exploration of waveform features using random forest algorithm'
+  authors: Kharita,  A., Denolle,  M., West,  M.
+  year: '2023'
+  key: KharitaEtAl2023
+  journal: Geophysical Journal International
+  doi: 10.1093/gji/ggae106
+  bibtex: |
+    @article{KharitaEtAl2023,
+      author = {Kharita, A. and Denolle, M. and West, M.},
+      title = {Discrimination between icequakes and earthquakes in southern Alaska: an exploration of waveform features using random forest algorithm},
+      journal = {Geophysical Journal International},
+      year = {2023},
+      doi = {10.1093/gji/ggae106}
+    }
+  tags: []
+- title: Ocean Coupling Limits Rupture Velocity of Fastest Observed Ice Shelf Rift
+    Propagation Event
+  authors: Olinger,  S., Lipovsky,  B., Denolle,  M.
+  year: '2023'
+  key: OlingerEtAl2023
+  journal: AGU Advances, 5, pp e2023AV001023
+  doi: 10.1029/2023AV001023
+  bibtex: |
+    @article{OlingerEtAl2023,
+      author = {Olinger, S. and Lipovsky, B. and Denolle, M.},
+      title = {Ocean Coupling Limits Rupture Velocity of Fastest Observed Ice Shelf Rift Propagation Event},
+      journal = {AGU Advances},
+      volume = {5},
+      pages = {e2023AV001023},
+      year = {2023},
+      doi = {10.1029/2023AV001023}
+    }
+  tags: []
+- title: Laboratory hydrofracture as analogs to tectonic tremors
+  authors: Yuan,  C., Cochard,  T., Denolle,  M., Gomberg,  J., Wech,  A., Xiao,  L.,
+    Weitz,  D.
+  year: '2023'
+  key: YuanEtAl2023a
+  journal: AGU Advances, 5, pp e2023AV001002
+  doi: 10.1029/2023AV001002
+  bibtex: |
+    @article{YuanEtAl2023a,
+      author = {Yuan, C. and Cochard, T. and Denolle, M. and Gomberg, J. and Wech, A. and Xiao, L. and Weitz, D.},
+      title = {Laboratory hydrofracture as analogs to tectonic tremors},
+      journal = {AGU Advances},
+      volume = {5},
+      pages = {e2023AV001002},
+      year = {2023},
+      doi = {10.1029/2023AV001002}
+    }
+  tags: []
+- title: Improved observations of deep earthquake ruptures using machine learning
+  authors: Shi,  Q., Denolle,  M.
+  year: '2023'
+  key: ShiEtAl2023
+  journal: 'Journal of Geophysical Research: Solid Earth, 128, pp e2023JB027334'
+  doi: 10.1029/2023JB027334
+  bibtex: |
+    @article{ShiEtAl2023,
+      author = {Shi, Q. and Denolle, M.},
+      title = {Improved observations of deep earthquake ruptures using machine learning},
+      journal = {Journal of Geophysical Research: Solid Earth},
+      volume = {128},
+      pages = {e2023JB027334},
+      year = {2023},
+      doi = {10.1029/2023JB027334}
+    }
+  tags: []
+- title: 'Better Together: Ensemble Learning for Earthquake Detection and Phase Picking'
+  authors: Yuang,  C., Ni,  Y., Denolle,  M.
+  year: '2023'
+  key: YuangEtAl2023
+  journal: IEEE Transactions on Geoscience and Remote Sensing
+  doi: 10.1109/TGRS.2023.3320148
+  bibtex: |
+    @article{YuangEtAl2023,
+      author = {Yuang, C. and Ni, Y. and Denolle, M.},
+      title = {Better Together: Ensemble Learning for Earthquake Detection and Phase Picking},
+      journal = {IEEE Transactions on Geoscience and Remote Sensing},
+      year = {2023},
+      doi = {10.1109/TGRS.2023.3320148}
+    }
+  tags: []
+- title: 'Seismology in the cloud: guidance for the individual researcher'
+  authors: Krauss,  Z., Ni,  Y., Henderson,  S., Denolle,  M.
+  year: '2023'
+  key: KraussEtAl2023
+  journal: Seismica, 2(2)
+  doi: 10.26443/seismica.v2i2.979
+  bibtex: |
+    @article{KraussEtAl2023,
+      author = {Krauss, Z. and Ni, Y. and Henderson, S. and Denolle, M.},
+      title = {Seismology in the cloud: guidance for the individual researcher},
+      journal = {Seismica},
+      volume = {2},
+      number = {2},
+      year = {2023},
+      doi = {10.26443/seismica.v2i2.979}
+    }
+  tags: []
+- title: Curated Pacific Northwest AI-ready Seismic Dataset
+  authors: Ni,  Y., Hutko,  A., Skene,  F., Denolle,  M., Malone,  S., Bodin,  P.,
+    Hartog,  R., Wright,  A.
+  year: '2023'
+  key: NiEtAl2023a
+  journal: Seismica, 2(1)
+  doi: 10.26443/seismica.v2i1.368
+  bibtex: |
+    @article{NiEtAl2023a,
+      author = {Ni, Y. and Hutko, A. and Skene, F. and Denolle, M. and Malone, S. and Bodin, P. and Hartog, R. and Wright, A.},
+      title = {Curated Pacific Northwest AI-ready Seismic Dataset},
+      journal = {Seismica},
+      volume = {2},
+      number = {1},
+      year = {2023},
+      doi = {10.26443/seismica.v2i1.368}
+    }
+  tags: []
+- title: Probing environmental and tectonic changes underneath Ciudad de M\'exico
+    with the urban seismic field
+  authors: Ermert,  L., Cabral-Cano,  E., Chaussard,  E., Solano-Rojas,  D., Quintanar,  L.,
+    Morales Padilla,  D., Fernandez-Torres,  E. A., Denolle,  M. A.
+  year: '2023'
+  key: ErmertEtAl2023
+  journal: Solid Earth (EGU)
+  doi: 10.5194/egusphere-2022-1361
+  bibtex: |
+    @article{ErmertEtAl2023,
+      author = {Ermert, L. and Cabral-Cano, E. and Chaussard, E. and Solano-Rojas, D. and Quintanar, L. and Morales Padilla, D. and Fernandez-Torres, E. A. and Denolle, M. A.},
+      title = {Probing environmental and tectonic changes underneath Ciudad de M\'exico with the urban seismic field},
+      journal = {Solid Earth (EGU)},
+      year = {2023},
+      doi = {10.5194/egusphere-2022-1361}
+    }
+  tags: []
+- title: The Seismic Signature of California's Earthquakes, Droughts, and Floods
+  authors: Clements,  T., Denolle,  M. A.
+  year: '2023'
+  key: ClementsEtAl2023
+  journal: 'Journal of Geophysical Research: Solid Earth, 128(1), pp e2022JB025553'
+  doi: 10.1029/2022JB025553
+  bibtex: |
+    @article{ClementsEtAl2023,
+      author = {Clements, T. and Denolle, M. A.},
+      title = {The Seismic Signature of California's Earthquakes, Droughts, and Floods},
+      journal = {Journal of Geophysical Research: Solid Earth},
+      volume = {128},
+      number = {1},
+      pages = {e2022JB025553},
+      year = {2023},
+      doi = {10.1029/2022JB025553}
+    }
+  tags: []
+- title: A multitask encoder--decoder to separate earthquake and ambient noise signal
+    in seismograms
+  authors: Yin,  J., Denolle,  M. A., He,  B.
+  year: '2022'
+  key: YinEtAl2022
+  journal: Geophysical Journal International, 231(3), pp 1806--1822
+  doi: 10.1093/gji/ggac290
+  bibtex: |
+    @article{YinEtAl2022,
+      author = {Yin, J. and Denolle, M. A. and He, B.},
+      title = {A multitask encoder--decoder to separate earthquake and ambient noise signal in seismograms},
+      journal = {Geophysical Journal International},
+      volume = {231},
+      number = {3},
+      pages = {1806--1822},
+      year = {2022},
+      doi = {10.1093/gji/ggac290}
+    }
+  tags: []
+- title: 'Pronounced Seismic Anisotropy in Kanto Sedimentary Basin: A Case Study of
+    Using Dense Arrays, Ambient Noise Seismology, and Multi-Modal Surface-Wave Imaging'
+  authors: Jiang,  C., Denolle,  M. A.
+  year: '2022'
+  key: JiangEtAl2022
+  journal: 'Journal of Geophysical Research: Solid Earth, 127(8), pp e2022JB024613'
+  doi: 10.1029/2022JB024613
+  bibtex: |
+    @article{JiangEtAl2022,
+      author = {Jiang, C. and Denolle, M. A.},
+      title = {Pronounced Seismic Anisotropy in Kanto Sedimentary Basin: A Case Study of Using Dense Arrays, Ambient Noise Seismology, and Multi-Modal Surface-Wave Imaging},
+      journal = {Journal of Geophysical Research: Solid Earth},
+      volume = {127},
+      number = {8},
+      pages = {e2022JB024613},
+      year = {2022},
+      doi = {10.1029/2022JB024613}
+    }
+  tags: []
+- title: Imaging the Kanto Basin seismic basement with earthquake and noise autocorrelation
+    functions
+  authors: Viens,  L., Jiang,  C., Denolle,  M. A.
+  year: '2022'
+  key: ViensEtAl2022
+  journal: Geophysical Journal International, 230(2), pp 1080--1091
+  doi: 10.1093/gji/ggac101
+  bibtex: |
+    @article{ViensEtAl2022,
+      author = {Viens, L. and Jiang, C. and Denolle, M. A.},
+      title = {Imaging the Kanto Basin seismic basement with earthquake and noise autocorrelation functions},
+      journal = {Geophysical Journal International},
+      volume = {230},
+      number = {2},
+      pages = {1080--1091},
+      year = {2022},
+      doi = {10.1093/gji/ggac101}
+    }
+  tags: []
+- title: 'Tracking the Cracking: a Holistic Analysis of Rapid Ice Shelf Fracture Using
+    Seismology, Geodesy, and Satellite Imagery on the Pine Island Glacier Ice Shelf,
+    West Antarctica'
+  authors: Olinger,  S. D., Lipovsky,  B. P., Denolle,  M. A., Crowell,  B. W.
+  year: '2022'
+  key: OlingerEtAl2022b
+  journal: Geophysical Research Letters, pp e2021GL097604
+  doi: 10.1029/2021GL097604
+  bibtex: |
+    @article{OlingerEtAl2022b,
+      author = {Olinger, S. D. and Lipovsky, B. P. and Denolle, M. A. and Crowell, B. W.},
+      title = {Tracking the Cracking: a Holistic Analysis of Rapid Ice Shelf Fracture Using Seismology, Geodesy, and Satellite Imagery on the Pine Island Glacier Ice Shelf, West Antarctica},
+      journal = {Geophysical Research Letters},
+      pages = {e2021GL097604},
+      year = {2022},
+      doi = {10.1029/2021GL097604}
+    }
+  tags: []
+- title: Detecting Elevated Pore Pressure due to Wastewater Injection Using Ambient
+    Noise Monitoring
+  authors: Yang,  Z., Yuan,  C., Denolle,  M. A.
+  year: '2022'
+  key: YangEtAl2022
+  journal: The Seismic Record, 2(1), pp 38--49
+  doi: 10.1785/0320210036
+  bibtex: |
+    @article{YangEtAl2022,
+      author = {Yang, Z. and Yuan, C. and Denolle, M. A.},
+      title = {Detecting Elevated Pore Pressure due to Wastewater Injection Using Ambient Noise Monitoring},
+      journal = {The Seismic Record},
+      volume = {2},
+      number = {1},
+      pages = {38--49},
+      year = {2022},
+      doi = {10.1785/0320210036}
+    }
+  tags: []
+- title: The Earth's Surface Controls the Depth-Dependent Seismic Radiation of Megathrust
+    Earthquakes
+  authors: Yin,  J., Denolle,  M. A.
+  year: '2021'
+  key: YinEtAl2021
+  journal: AGU Advances, 2(3), pp e2021AV000413
+  doi: 10.1029/2021AV000413
+  bibtex: |
+    @article{YinEtAl2021,
+      author = {Yin, J. and Denolle, M. A.},
+      title = {The Earth's Surface Controls the Depth-Dependent Seismic Radiation of Megathrust Earthquakes},
+      journal = {AGU Advances},
+      volume = {2},
+      number = {3},
+      pages = {e2021AV000413},
+      year = {2021},
+      doi = {10.1029/2021AV000413}
+    }
+  tags: []
+- title: Comparing approaches to measuring seismic phase variations in the time, frequency,
+    and wavelet domains
+  authors: Yuan,  C., Bryan,  J., Denolle,  M. A.
+  year: '2021'
+  key: YuanEtAl2021
+  journal: Geophysical Journal International, 226(2), pp 828--846
+  doi: 10.1093/gji/ggab140
+  bibtex: |
+    @article{YuanEtAl2021,
+      author = {Yuan, C. and Bryan, J. and Denolle, M. A.},
+      title = {Comparing approaches to measuring seismic phase variations in the time, frequency, and wavelet domains},
+      journal = {Geophysical Journal International},
+      volume = {226},
+      number = {2},
+      pages = {828--846},
+      year = {2021},
+      doi = {10.1093/gji/ggab140}
+    }
+  tags: []
+- title: Source time function clustering reveals patterns in earthquake dynamics
+  authors: Yin,  J., Li,  Z., Denolle,  M. A.
+  year: '2021'
+  key: YinEtAl2021b
+  journal: Seismological Research Letters, 92(4), pp 2343--2353
+  doi: 10.1785/0220200403
+  bibtex: |
+    @article{YinEtAl2021b,
+      author = {Yin, J. and Li, Z. and Denolle, M. A.},
+      title = {Source time function clustering reveals patterns in earthquake dynamics},
+      journal = {Seismological Research Letters},
+      volume = {92},
+      number = {4},
+      pages = {2343--2353},
+      year = {2021},
+      doi = {10.1785/0220200403}
+    }
+  tags: []
+- title: 'SeisNoise.jl: Ambient Seismic Noise Cross Correlation on the CPU and GPU
+    in Julia'
+  authors: Clements,  T., Denolle,  M. A.
+  year: '2021'
+  key: ClementsEtAl2021
+  journal: Seismological Research Letters, 92(1), pp 517--527
+  doi: 10.1785/0220200192
+  bibtex: |
+    @article{ClementsEtAl2021,
+      author = {Clements, T. and Denolle, M. A.},
+      title = {{SeisNoise.jl}: Ambient Seismic Noise Cross Correlation on the {CPU} and {GPU} in {Julia}},
+      journal = {Seismological Research Letters},
+      volume = {92},
+      number = {1},
+      pages = {517--527},
+      year = {2021},
+      doi = {10.1785/0220200192}
+    }
+  tags: []
+- title: 'NoisePy: A new high-performance python tool for ambient-noise seismology'
+  authors: Jiang,  C., Denolle,  M. A.
+  year: '2020'
+  key: JiangEtAl2020
+  journal: Seismological Research Letters, 91(3), pp 1853--1866
+  doi: 10.1785/0220190364
+  bibtex: |
+    @article{JiangEtAl2020,
+      author = {Jiang, C. and Denolle, M. A.},
+      title = {{NoisePy}: A new high-performance python tool for ambient-noise seismology},
+      journal = {Seismological Research Letters},
+      volume = {91},
+      number = {3},
+      pages = {1853--1866},
+      year = {2020},
+      doi = {10.1785/0220190364}
+    }
+  tags: []
+- title: Quiet Anthropocene, quiet Earth
+  authors: Denolle,  M. A., Nissen-Meyer,  T.
+  year: '2020'
+  key: DenolleNissenMeyer2020
+  journal: Science, 369(6509), pp 1299--1300
+  doi: 10.1126/science.abd8358
+  bibtex: |
+    @article{DenolleNissenMeyer2020,
+      author = {Denolle, M. A. and Nissen-Meyer, T.},
+      title = {Quiet Anthropocene, quiet Earth},
+      journal = {Science},
+      volume = {369},
+      number = {6509},
+      pages = {1299--1300},
+      year = {2020},
+      doi = {10.1126/science.abd8358}
+    }
+  tags: []
+- title: 'SeisIO: A Fast, Efficient Geophysical Data Architecture for the Julia Language'
+  authors: Jones,  J. P., Okubo,  K., Clements,  T., Denolle,  M. A.
+  year: '2020'
+  key: JonesEtAl2020
+  journal: Seismological Research Letters, 91, pp 2368--2377
+  doi: 10.1785/0220190295
+  bibtex: |
+    @article{JonesEtAl2020,
+      author = {Jones, J. P. and Okubo, K. and Clements, T. and Denolle, M. A.},
+      title = {{SeisIO}: A Fast, Efficient Geophysical Data Architecture for the {Julia} Language},
+      journal = {Seismological Research Letters},
+      volume = {91},
+      pages = {2368--2377},
+      year = {2020},
+      doi = {10.1785/0220190295}
+    }
+  tags: []
+- title: Energetic Onset of Earthquakes
+  authors: Denolle,  M.
+  year: '2019'
+  key: Denolle2019
+  journal: Geophysical Research Letters, 46(5), pp 2458--2466
+  doi: 10.1029/2018GL080687
+  bibtex: |
+    @article{Denolle2019,
+      author = {Denolle, M.},
+      title = {Energetic Onset of Earthquakes},
+      journal = {Geophysical Research Letters},
+      volume = {46},
+      number = {5},
+      pages = {2458--2466},
+      year = {2019},
+      doi = {10.1029/2018GL080687}
+    }
+  tags: []
+- title: Relating teleseismic backprojection images to earthquake kinematics
+  authors: Yin,  J., Denolle,  M.
+  year: '2019'
+  key: YinDenolle2019
+  journal: Geophysical Journal International, 217(2), pp 729--747
+  doi: 10.1093/gji/ggz048
+  bibtex: |
+    @article{YinDenolle2019,
+      author = {Yin, J. and Denolle, M.},
+      title = {Relating teleseismic backprojection images to earthquake kinematics},
+      journal = {Geophysical Journal International},
+      volume = {217},
+      number = {2},
+      pages = {729--747},
+      year = {2019},
+      doi = {10.1093/gji/ggz048}
+    }
+  tags: []
+- title: Geometric Controls on Pulse-like Rupture in a Dynamic Model of the 2015 Gorkha
+    Earthquake
+  authors: Wang,  Y., Denolle,  M., Day,  S. M.
+  year: '2019'
+  key: WangEtAl2019
+  journal: Journal of Geophysical Research, 124(2), pp 1544--1568
+  doi: 10.1029/2018JB016602
+  bibtex: |
+    @article{WangEtAl2019,
+      author = {Wang, Y. and Denolle, M. and Day, S. M.},
+      title = {Geometric Controls on Pulse-like Rupture in a Dynamic Model of the 2015 Gorkha Earthquake},
+      journal = {Journal of Geophysical Research},
+      volume = {124},
+      number = {2},
+      pages = {1544--1568},
+      year = {2019},
+      doi = {10.1029/2018JB016602}
+    }
+  tags: []
+- title: 'Earthquakes Within Earthquakes: Patterns in Rupture Complexity'
+  authors: Danr\'e,  P., Yin,  J., Lipovsky,  B., Denolle,  M.
+  year: '2019'
+  key: DanreEtAl2019
+  journal: Geophysical Research Letters, 43(13), pp 7352--7360
+  doi: 10.1029/2019GL083093
+  bibtex: |
+    @article{DanreEtAl2019,
+      author = {Danr{\'e}, P. and Yin, J. and Lipovsky, B. and Denolle, M.},
+      title = {Earthquakes Within Earthquakes: Patterns in Rupture Complexity},
+      journal = {Geophysical Research Letters},
+      volume = {43},
+      number = {13},
+      pages = {7352--7360},
+      year = {2019},
+      doi = {10.1029/2019GL083093}
+    }
+  tags: []
+- title: Long-period ground motions from past and virtual megathrust earthquakes along
+    the Nankai Trough, Japan
+  authors: Viens,  L., Denolle,  M.
+  year: '2019'
+  key: ViensDenolle2019
+  journal: Bulletin of the Seismological Society of America, 109(4), pp 1312--1330
+  doi: 10.1785/0120180320
+  bibtex: |
+    @article{ViensDenolle2019,
+      author = {Viens, L. and Denolle, M.},
+      title = {Long-period ground motions from past and virtual megathrust earthquakes along the Nankai Trough, Japan},
+      journal = {Bulletin of the Seismological Society of America},
+      volume = {109},
+      number = {4},
+      pages = {1312--1330},
+      year = {2019},
+      doi = {10.1785/0120180320}
+    }
+  tags: []
+- title: 'Spatial and Temporal Evolution of Earthquake Dynamics: Case Study of the
+    Mw 8.3 Illapel Earthquake, Chile'
+  authors: Yin,  J., Denolle,  M. A., Yao,  H.
+  year: '2018'
+  key: YinEtAl2018
+  journal: 'Journal of Geophysical Research: Solid Earth, 123(1), pp 344--367'
+  bibtex: |
+    @article{YinEtAl2018,
+      author = {Yin, J. and Denolle, M. A. and Yao, H.},
+      title = {Spatial and Temporal Evolution of Earthquake Dynamics: Case Study of the Mw 8.3 Illapel Earthquake, Chile},
+      journal = {Journal of Geophysical Research: Solid Earth},
+      volume = {123},
+      number = {1},
+      pages = {344--367},
+      year = {2018}
+    }
+  tags: []
+- title: Tracking ground water using the ambient seismic field
+  authors: Clements,  T., Denolle,  M.
+  year: '2018'
+  key: ClementsDenolle2018a
+  journal: "(User text suggests possible mismatch of volume/issue) Geophysical Research
+    Letters, 123(4), pp 2923--294"
+  doi: 10.1029/2018GL077706
+  bibtex: |
+    @article{ClementsDenolle2018a,
+      author = {Clements, T. and Denolle, M.},
+      title = {Tracking ground water using the ambient seismic field},
+      journal = {(User text suggests possible mismatch of volume/issue) Geophysical Research Letters},
+      volume = {123},
+      number = {4},
+      pages = {2923--294},
+      year = {2018},
+      doi = {10.1029/2018GL077706}
+    }
+  tags: []
+- title: Complex near-surface rheology inferred from the response of greater Tokyo
+    to strong ground motions
+  authors: Viens,  L., Denolle,  M., Hirata,  N., Nakagawa,  S.
+  year: '2018'
+  key: ViensEtAl2018
+  journal: 'Journal of Geophysical Research: Solid Earth, 123(7), pp 5710--5729'
+  bibtex: |
+    @article{ViensEtAl2018,
+      author = {Viens, L. and Denolle, M. and Hirata, N. and Nakagawa, S.},
+      title = {Complex near-surface rheology inferred from the response of greater Tokyo to strong ground motions},
+      journal = {Journal of Geophysical Research: Solid Earth},
+      volume = {123},
+      number = {7},
+      pages = {5710--5729},
+      year = {2018}
+    }
+  tags: []
+- title: Strong Shaking Predicted in Tokyo From an Expected M7+ Itoigawa-Shizuoka
+    Earthquake
+  authors: Denolle,  M. A., Bou\'e,  P., Hirata,  N., Beroza,  G. C.
+  year: '2018'
+  key: DenolleEtAl2018a
+  journal: 'Journal of Geophysical Research: Solid Earth, 123(5), pp 3968--3992'
+  bibtex: |
+    @article{DenolleEtAl2018a,
+      author = {Denolle, M. A. and Bou{\'e}, P. and Hirata, N. and Beroza, G. C.},
+      title = {Strong Shaking Predicted in Tokyo From an Expected M7+ Itoigawa-Shizuoka Earthquake},
+      journal = {Journal of Geophysical Research: Solid Earth},
+      volume = {123},
+      number = {5},
+      pages = {3968--3992},
+      year = {2018}
+    }
+  tags: []
+- title: Improved model fitting for the empirical Green's function approach using
+    hierarchical models
+  authors: Van Houtte,  C., Denolle,  M.
+  year: '2018'
+  key: VanHoutteDenolle2018
+  journal: 'Journal of Geophysical Research: Solid Earth, 123(4), pp 2923--2942'
+  bibtex: |
+    @article{VanHoutteDenolle2018,
+      author = {Van Houtte, C. and Denolle, M.},
+      title = {Improved model fitting for the empirical Green's function approach using hierarchical models},
+      journal = {Journal of Geophysical Research: Solid Earth},
+      volume = {123},
+      number = {4},
+      pages = {2923--2942},
+      year = {2018}
+    }
+  tags: []
+- title: Tracking groundwater levels using the ambient seismic field
+  authors: Clements,  T., Denolle,  M. A.
+  year: '2018'
+  key: ClementsDenolle2018b
+  journal: Geophysical Research Letters, 45, pp 6459--6465
+  doi: 10.1029/2018GL077706
+  bibtex: |
+    @article{ClementsDenolle2018b,
+      author = {Clements, T. and Denolle, M. A.},
+      title = {Tracking groundwater levels using the ambient seismic field},
+      journal = {Geophysical Research Letters},
+      volume = {45},
+      pages = {6459--6465},
+      year = {2018},
+      doi = {10.1029/2018GL077706}
+    }
+  tags: []
+- title: Convolutional neural network for earthquake detection and location
+  authors: Perol,  T., Gharbi,  M., Denolle,  M.
+  year: '2018'
+  key: PerolEtAl2018
+  journal: Science Advances, 4(2), pp e1700578
+  bibtex: |
+    @article{PerolEtAl2018,
+      author = {Perol, T. and Gharbi, M. and Denolle, M.},
+      title = {Convolutional neural network for earthquake detection and location},
+      journal = {Science Advances},
+      volume = {4},
+      number = {2},
+      pages = {e1700578},
+      year = {2018}
+    }
+  tags: []
+- title: Retrieving impulse response function amplitudes from the ambient seismic
+    field
+  authors: Viens,  L., Denolle,  M., Miyake,  H., Sakai,  S., Nakagawa,  S.
+  year: '2017'
+  key: ViensEtAl2017
+  journal: Geophysical Journal International, 210(1), pp 210--222
+  doi: 10.1093/gji/ggx155
+  bibtex: |
+    @article{ViensEtAl2017,
+      author = {Viens, L. and Denolle, M. and Miyake, H. and Sakai, S. and Nakagawa, S.},
+      title = {Retrieving impulse response function amplitudes from the ambient seismic field},
+      journal = {Geophysical Journal International},
+      volume = {210},
+      number = {1},
+      pages = {210--222},
+      year = {2017},
+      doi = {10.1093/gji/ggx155}
+    }
+  tags: []
+- title: Multicomponent C3 Green's Functions for Improved Long-Period Ground-Motion
+    Prediction
+  authors: Sheng,  Y., Denolle,  M. A., Beroza,  G. C.
+  year: '2017'
+  key: ShengEtAl2017
+  journal: Bulletin of the Seismological Society of America, 107(6), pp 2836--2845
+  bibtex: |
+    @article{ShengEtAl2017,
+      author = {Sheng, Y. and Denolle, M. A. and Beroza, G. C.},
+      title = {Multicomponent C3 Green's Functions for Improved Long-Period Ground-Motion Prediction},
+      journal = {Bulletin of the Seismological Society of America},
+      volume = {107},
+      number = {6},
+      pages = {2836--2845},
+      year = {2017}
+    }
+  tags: []
+- title: 'Beyond Basin Resonance: Characterizing Wave Propagation Using a Dense Array
+    and the Ambient Seismic Field'
+  authors: Boue,  P., Denolle,  M., Hirata,  N., Nakagawa,  S., Beroza,  G. C.
+  year: '2016'
+  key: BoueEtAl2016
+  journal: Geophysical Journal International, 206(2), pp 1261--1272
+  doi: 10.1093/gji/ggw205
+  bibtex: |
+    @article{BoueEtAl2016,
+      author = {Boue, P. and Denolle, M. and Hirata, N. and Nakagawa, S. and Beroza, G. C.},
+      title = {Beyond Basin Resonance: Characterizing Wave Propagation Using a Dense Array and the Ambient Seismic Field},
+      journal = {Geophysical Journal International},
+      volume = {206},
+      number = {2},
+      pages = {1261--1272},
+      year = {2016},
+      doi = {10.1093/gji/ggw205}
+    }
+  tags: []
+- title: New perspective on self-similarity of shallow thrust earthquakes
+  authors: Denolle,  M., Shearer,  P. M.
+  year: '2016'
+  key: DenolleShearer2016
+  journal: 'Journal of Geophysical Research: Solid Earth, 121(9), pp 6533--6565'
+  doi: 10.1002/2016JB013105
+  bibtex: |
+    @article{DenolleShearer2016,
+      author = {Denolle, M. and Shearer, P. M.},
+      title = {New perspective on self-similarity of shallow thrust earthquakes},
+      journal = {Journal of Geophysical Research: Solid Earth},
+      volume = {121},
+      number = {9},
+      pages = {6533--6565},
+      year = {2016},
+      doi = {10.1002/2016JB013105}
+    }
+  tags: []
+- title: Dynamics of the M7.8 2015 Nepal Earthquake
+  authors: Denolle,  M., Fan,  W., Shearer,  P. M.
+  year: '2015'
+  key: DenolleFanShearer2015
+  journal: Geophysical Research Letters, 42(18), pp 7467--7475
+  doi: 10.1002/2015GL065336
+  bibtex: |
+    @article{DenolleFanShearer2015,
+      author = {Denolle, M. and Fan, W. and Shearer, P. M.},
+      title = {Dynamics of the M7.8 2015 Nepal Earthquake},
+      journal = {Geophysical Research Letters},
+      volume = {42},
+      number = {18},
+      pages = {7467--7475},
+      year = {2015},
+      doi = {10.1002/2015GL065336}
+    }
+  tags: []
+- title: Long-period seismic amplification in the Kanto Basin from the ambient seismic
+    field
+  authors: Denolle,  M., Miyake,  H., Nakagawa,  S., Hirata,  N., Beroza,  G. C.
+  year: '2014'
+  key: DenolleEtAl2014a
+  journal: Geophysical Research Letters, 41(18), pp 7467--7475
+  doi: 10.1002/2014GL059425
+  bibtex: |
+    @article{DenolleEtAl2014a,
+      author = {Denolle, M. and Miyake, H. and Nakagawa, S. and Hirata, N. and Beroza, G. C.},
+      title = {Long-period seismic amplification in the Kanto Basin from the ambient seismic field},
+      journal = {Geophysical Research Letters},
+      volume = {41},
+      number = {18},
+      pages = {7467--7475},
+      year = {2014},
+      doi = {10.1002/2014GL059425}
+    }
+  tags: []
+- title: Full 3D Tomography (F3DT) for Crustal Structure in Southern California Based
+    on the Scattering-Integral (SI) and the Adjoint-Wavefield (AW) Methods
+  authors: Lee,  E.-J., Chen,  P., Jordan,  T. H., Maechling,  P. B., Denolle,  M.,
+    Beroza,  G. C.
+  year: '2014'
+  key: LeeEtAl2014
+  journal: Journal of Geophysical Research, 119(8), pp 6421--6451
+  doi: 10.1002/2014JB011236
+  bibtex: |
+    @article{LeeEtAl2014,
+      author = {Lee, E.-J. and Chen, P. and Jordan, T. H. and Maechling, P. B. and Denolle, M. and Beroza, G. C.},
+      title = {Full 3D Tomography (F3DT) for Crustal Structure in Southern California Based on the Scattering-Integral (SI) and the Adjoint-Wavefield (AW) Methods},
+      journal = {Journal of Geophysical Research},
+      volume = {119},
+      number = {8},
+      pages = {6421--6451},
+      year = {2014},
+      doi = {10.1002/2014JB011236}
+    }
+  tags: []
+- title: Strong Ground Motion Prediction using Virtual Earthquakes
+  authors: Denolle,  M., Dunham,  E. M., Prieto,  G. A., Beroza,  G. C.
+  year: '2014'
+  key: DenolleEtAl2014b
+  journal: Science, 343(6169), pp 399--403
+  doi: 10.1126/science.1245678
+  bibtex: |
+    @article{DenolleEtAl2014b,
+      author = {Denolle, M. and Dunham, E. M. and Prieto, G. A. and Beroza, G. C.},
+      title = {Strong Ground Motion Prediction using Virtual Earthquakes},
+      journal = {Science},
+      volume = {343},
+      number = {6169},
+      pages = {399--403},
+      year = {2014},
+      doi = {10.1126/science.1245678}
+    }
+  tags: []
+- title: Ground Motion Prediction of Realistic Earthquake Sources Using the Ambient
+    Seismic Field
+  authors: Denolle,  M., Dunham,  E. M., Prieto,  G. A., Beroza,  G. C.
+  year: '2013'
+  key: DenolleEtAl2013a
+  journal: Journal of Geophysical Research, 118(5), pp 2102--2118
+  doi: 10.1029/2012JB009603
+  bibtex: |
+    @article{DenolleEtAl2013a,
+      author = {Denolle, M. and Dunham, E. M. and Prieto, G. A. and Beroza, G. C.},
+      title = {Ground Motion Prediction of Realistic Earthquake Sources Using the Ambient Seismic Field},
+      journal = {Journal of Geophysical Research},
+      volume = {118},
+      number = {5},
+      pages = {2102--2118},
+      year = {2013},
+      doi = {10.1029/2012JB009603}
+    }
+  tags: []
+- title: A numeric evaluation of attenuation from ambient noise correlation functions
+  authors: Lawrence,  J. F., Denolle,  M., Seats,  K. J., Prieto,  G.
+  year: '2013'
+  key: LawrenceEtAl2013
+  journal: Journal of Geophysical Research, 118(12), pp 6134--6145
+  doi: 10.1002/2012JB009513
+  bibtex: |
+    @article{LawrenceEtAl2013,
+      author = {Lawrence, J. F. and Denolle, M. and Seats, K. J. and Prieto, G.},
+      title = {A numeric evaluation of attenuation from ambient noise correlation functions},
+      journal = {Journal of Geophysical Research},
+      volume = {118},
+      number = {12},
+      pages = {6134--6145},
+      year = {2013},
+      doi = {10.1002/2012JB009513}
+    }
+  tags: []
+- title: Solving the Surface-Wave Eigenproblem with Chebyshev Spectral Collocation
+  authors: Denolle,  M., Dunham,  E. M., Beroza,  G. C.
+  year: '2012'
+  key: DenolleEtAl2012
+  journal: Bulletin of the Seismological Society of America, 102(3), pp 1214--1223
+  doi: 10.1785/0120110183
+  bibtex: |
+    @article{DenolleEtAl2012,
+      author = {Denolle, M. and Dunham, E. M. and Beroza, G. C.},
+      title = {Solving the Surface-Wave Eigenproblem with Chebyshev Spectral Collocation},
+      journal = {Bulletin of the Seismological Society of America},
+      volume = {102},
+      number = {3},
+      pages = {1214--1223},
+      year = {2012},
+      doi = {10.1785/0120110183}
+    }
+  tags: []
+- title: On amplitude carried by the ambient seismic field
+  authors: Prieto,  G. A., Denolle,  M., Lawrence,  J. F., Beroza,  G. C.
+  year: '2011'
+  key: PrietoEtAl2011
+  journal: 'Comptes Rendus Geoscience (Thematic Issue: Imaging and Monitoring with
+    Seismic Noise), 343, pp 600--614'
+  bibtex: |
+    @article{PrietoEtAl2011,
+      author = {Prieto, G. A. and Denolle, M. and Lawrence, J. F. and Beroza, G. C.},
+      title = {On amplitude carried by the ambient seismic field},
+      journal = {Comptes Rendus Geoscience (Thematic Issue: Imaging and Monitoring with Seismic Noise)},
+      volume = {343},
+      pages = {600--614},
+      year = {2011}
+    }
+  tags: []
+- title: Evidence of active backthrusting at the NE Margin of Mentawai Islands, SW,
+    Sumatra
+  authors: Singh,  S., Hananto,  N., Chauhan,  A., Permana,  H., Denolle,  M., Hendriyana,  A.,
+    Natawidjaja,  D.
+  year: '2010'
+  key: SinghEtAl2010
+  journal: Geophysical Journal International, 180(2), pp 703--714
+  doi: 10.1111/j.1365-246X.2009.04458.x
+  bibtex: |
+    @article{SinghEtAl2010,
+      author = {Singh, S. and Hananto, N. and Chauhan, A. and Permana, H. and Denolle, M. and Hendriyana, A. and Natawidjaja, D.},
+      title = {Evidence of active backthrusting at the NE Margin of Mentawai Islands, SW, Sumatra},
+      journal = {Geophysical Journal International},
+      volume = {180},
+      number = {2},
+      pages = {703--714},
+      year = {2010},
+      doi = {10.1111/j.1365-246X.2009.04458.x}
+    }
+  tags: []
