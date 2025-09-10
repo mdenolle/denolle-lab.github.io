@@ -76,7 +76,7 @@
   tags: []
 - title: 'Training the Next Generation of Seismologists: Delivering Research‐Grade
     Software Education for Cloud and HPC Computing Through Diverse Training Modalities'
-  authors: Denolle,  Marine A., Tape,  Carl, Bozdağ,  Ebru, Wang,  Yinzhi, Waldhauser,  Felix,
+  authors: Denolle,  Marine, Tape,  Carl, Bozdag,  Ebru, Wang,  Yinzhi, Waldhauser,  Felix,
     Gabriel,  Alice‐Agnes, Braunmiller,  Jochen, Chow,  Bryant, Ding,  Liang, Feng,  Kuan‐Fu,
     Ghosh,  Ayon, Groebner,  Nathan, Gupta,  Aakash, Krauss,  Zoe, McPherson,  Amanda
     M., Nagaso,  Masaru, Niu,  Zihua, Ni,  Yiyu, Örsvuran,  Rıdvan, Pavlis,  Gary,
@@ -91,7 +91,7 @@
   url: https://doi.org/10.1785/0220240413
   bibtex: |
     @article{10.1785/0220240413,
-      author = {Denolle, Marine A. and Tape, Carl and Bozdağ, Ebru and Wang, Yinzhi and Waldhauser, Felix and Gabriel, Alice‐Agnes and Braunmiller, Jochen and Chow, Bryant and Ding, Liang and Feng, Kuan‐Fu and Ghosh, Ayon and Groebner, Nathan and Gupta, Aakash and Krauss, Zoe and McPherson, Amanda M. and Nagaso, Masaru and Niu, Zihua and Ni, Yiyu and Örsvuran, Rıdvan and Pavlis, Gary and Rodriguez‐Cardozo, Felix and Sawi, Theresa and Schaff, David and Schliwa, Nico and Schneller, David and Shi, Qibin and Thurin, Julien and Wang, Chenxiao and Wang, Kaiwen and Wong, Jeremy Wing Ching and Wolf, Sebastian and Yuan, Congcong},
+      author = {Denolle, Marine and Tape, Carl and Bozdag, Ebru and Wang, Yinzhi and Waldhauser, Felix and Gabriel, Alice‐Agnes and Braunmiller, Jochen and Chow, Bryant and Ding, Liang and Feng, Kuan‐Fu and Ghosh, Ayon and Groebner, Nathan and Gupta, Aakash and Krauss, Zoe and McPherson, Amanda M. and Nagaso, Masaru and Niu, Zihua and Ni, Yiyu and Örsvuran, Rıdvan and Pavlis, Gary and Rodriguez‐Cardozo, Felix and Sawi, Theresa and Schaff, David and Schliwa, Nico and Schneller, David and Shi, Qibin and Thurin, Julien and Wang, Chenxiao and Wang, Kaiwen and Wong, Jeremy Wing Ching and Wolf, Sebastian and Yuan, Congcong},
       title = {Training the Next Generation of Seismologists: Delivering Research‐Grade Software Education for Cloud and HPC Computing Through Diverse Training Modalities},
       journal = {Seismological Research Letters},
       volume = {96},
@@ -190,38 +190,6 @@
       doi = {in press}
     }
   tags: []
-- title: Extended crack propagation by local nucleation and rapid transverse expansion
-  authors: Cochard,  T., Svetlizky,  I., Albertini,  G., Viesca,  R. C., Rubinstein,  S.
-    M., Spaepen,  F., Yuan,  C., Denolle,  M., Song,  Y.-Q., Xiao,  L., Weitz,  D.
-    A.
-  year: '2024'
-  key: CochardEtAl2024
-  journal: Nature Physics
-  doi: 10.1038/s41567-023-02365-0
-  bibtex: |
-    @article{CochardEtAl2024,
-      author = {Cochard, T. and Svetlizky, I. and Albertini, G. and Viesca, R. C. and Rubinstein, S. M. and Spaepen, F. and Yuan, C. and Denolle, M. and Song, Y.-Q. and Xiao, L. and Weitz, D. A.},
-      title = {Extended crack propagation by local nucleation and rapid transverse expansion},
-      journal = {Nature Physics},
-      year = {2024},
-      doi = {10.1038/s41567-023-02365-0}
-    }
-  tags: []
-- title: 'Training the Next Generation of Seismologists: Delivering Research-Grade
-    Software Education for Cloud and HPC Computing through Diverse Training Modalities'
-  authors: Denolle,  M, Tape,  C, Bozda\ug,  E, Wang,  Y, Waldhauser,  F, Gabriel,  AA,
-    Braunmiller,  J, Chow,  B, Ding,  L, Feng,  KF, others
-  year: '2024'
-  key: denolle2024training
-  journal: arXiv preprint arXiv:2409.19147
-  bibtex: |
-    @article{denolle2024training,
-      title = {Training the Next Generation of Seismologists: Delivering Research-Grade Software Education for Cloud and HPC Computing through Diverse Training Modalities},
-      author = {Denolle, M and Tape, C and Bozda{\u{g}}, E and Wang, Y and Waldhauser, F and Gabriel, AA and Braunmiller, J and Chow, B and Ding, L and Feng, KF and others},
-      journal = {arXiv preprint arXiv:2409.19147},
-      year = {2024}
-    }
-  tags: []
 - title: Analysing Volcanic, Tectonic, and Environmental Influences on the Seismic
     Velocity from 25 Years of Data at Mount St. Helens
   authors: Makus,  P., Denolle,  M. A., Sens-Schonfelder,  C., Kopfli,  M., Tilmann,  F.
@@ -313,6 +281,23 @@
       doi = {10.1029/2023JB028084}
     }
   tags: []
+- title: Extended crack propagation by local nucleation and rapid transverse expansion
+  authors: Cochard,  T., Svetlizky,  I., Albertini,  G., Viesca,  R. C., Rubinstein,  S.
+    M., Spaepen,  F., Yuan,  C., Denolle,  M., Song,  Y.-Q., Xiao,  L., Weitz,  D.
+    A.
+  year: '2024'
+  key: CochardEtAl2024
+  journal: Nature Physics
+  doi: 10.1038/s41567-023-02365-0
+  bibtex: |
+    @article{CochardEtAl2024,
+      author = {Cochard, T. and Svetlizky, I. and Albertini, G. and Viesca, R. C. and Rubinstein, S. M. and Spaepen, F. and Yuan, C. and Denolle, M. and Song, Y.-Q. and Xiao, L. and Weitz, D. A.},
+      title = {Extended crack propagation by local nucleation and rapid transverse expansion},
+      journal = {Nature Physics},
+      year = {2024},
+      doi = {10.1038/s41567-023-02365-0}
+    }
+  tags: []
 - title: An Object Storage for Distributed Acoustic Sensing
   authors: Ni,  Yiyu, Denolle,  Marine A., Fatland,  Rob, Alterman,  Naomi, Lipovsky,  Bradley
     P., Knuth,  Friedrich
@@ -340,22 +325,6 @@
       month_numeric = {10}
     }
   tags: []
-- title: 'Discrimination between icequakes and earthquakes in southern Alaska: an
-    exploration of waveform features using random forest algorithm'
-  authors: Kharita,  A., Denolle,  M., West,  M.
-  year: '2023'
-  key: KharitaEtAl2023
-  journal: Geophysical Journal International
-  doi: 10.1093/gji/ggae106
-  bibtex: |
-    @article{KharitaEtAl2023,
-      author = {Kharita, A. and Denolle, M. and West, M.},
-      title = {Discrimination between icequakes and earthquakes in southern Alaska: an exploration of waveform features using random forest algorithm},
-      journal = {Geophysical Journal International},
-      year = {2023},
-      doi = {10.1093/gji/ggae106}
-    }
-  tags: []
 - title: Ocean Coupling Limits Rupture Velocity of Fastest Observed Ice Shelf Rift
     Propagation Event
   authors: Olinger,  S., Lipovsky,  B., Denolle,  M.
@@ -372,6 +341,22 @@
       pages = {e2023AV001023},
       year = {2023},
       doi = {10.1029/2023AV001023}
+    }
+  tags: []
+- title: 'Discrimination between icequakes and earthquakes in southern Alaska: an
+    exploration of waveform features using random forest algorithm'
+  authors: Kharita,  A., Denolle,  M., West,  M.
+  year: '2023'
+  key: KharitaEtAl2023
+  journal: Geophysical Journal International
+  doi: 10.1093/gji/ggae106
+  bibtex: |
+    @article{KharitaEtAl2023,
+      author = {Kharita, A. and Denolle, M. and West, M.},
+      title = {Discrimination between icequakes and earthquakes in southern Alaska: an exploration of waveform features using random forest algorithm},
+      journal = {Geophysical Journal International},
+      year = {2023},
+      doi = {10.1093/gji/ggae106}
     }
   tags: []
 - title: Laboratory hydrofracture as analogs to tectonic tremors
@@ -588,25 +573,6 @@
       doi = {10.1785/0320210036}
     }
   tags: []
-- title: The Earth's Surface Controls the Depth-Dependent Seismic Radiation of Megathrust
-    Earthquakes
-  authors: Yin,  J., Denolle,  M. A.
-  year: '2021'
-  key: YinEtAl2021
-  journal: AGU Advances, 2(3), pp e2021AV000413
-  doi: 10.1029/2021AV000413
-  bibtex: |
-    @article{YinEtAl2021,
-      author = {Yin, J. and Denolle, M. A.},
-      title = {The Earth's Surface Controls the Depth-Dependent Seismic Radiation of Megathrust Earthquakes},
-      journal = {AGU Advances},
-      volume = {2},
-      number = {3},
-      pages = {e2021AV000413},
-      year = {2021},
-      doi = {10.1029/2021AV000413}
-    }
-  tags: []
 - title: Comparing approaches to measuring seismic phase variations in the time, frequency,
     and wavelet domains
   authors: Yuan,  C., Bryan,  J., Denolle,  M. A.
@@ -624,6 +590,25 @@
       pages = {828--846},
       year = {2021},
       doi = {10.1093/gji/ggab140}
+    }
+  tags: []
+- title: The Earth's Surface Controls the Depth-Dependent Seismic Radiation of Megathrust
+    Earthquakes
+  authors: Yin,  J., Denolle,  M. A.
+  year: '2021'
+  key: YinEtAl2021
+  journal: AGU Advances, 2(3), pp e2021AV000413
+  doi: 10.1029/2021AV000413
+  bibtex: |
+    @article{YinEtAl2021,
+      author = {Yin, J. and Denolle, M. A.},
+      title = {The Earth's Surface Controls the Depth-Dependent Seismic Radiation of Megathrust Earthquakes},
+      journal = {AGU Advances},
+      volume = {2},
+      number = {3},
+      pages = {e2021AV000413},
+      year = {2021},
+      doi = {10.1029/2021AV000413}
     }
   tags: []
 - title: Source time function clustering reveals patterns in earthquake dynamics
@@ -814,6 +799,7 @@
   year: '2018'
   key: YinEtAl2018
   journal: 'Journal of Geophysical Research: Solid Earth, 123(1), pp 344--367'
+  doi: 10.1002/2017JB014265
   bibtex: |
     @article{YinEtAl2018,
       author = {Yin, J. and Denolle, M. A. and Yao, H.},
@@ -821,6 +807,7 @@
       journal = {Journal of Geophysical Research: Solid Earth},
       volume = {123},
       number = {1},
+      doi = {10.1002/2017JB014265},
       pages = {344--367},
       year = {2018}
     }
@@ -953,6 +940,7 @@
   year: '2017'
   key: ShengEtAl2017
   journal: Bulletin of the Seismological Society of America, 107(6), pp 2836--2845
+  doi: 10.1785/0120170053
   bibtex: |
     @article{ShengEtAl2017,
       author = {Sheng, Y. and Denolle, M. A. and Beroza, G. C.},
@@ -960,6 +948,7 @@
       journal = {Bulletin of the Seismological Society of America},
       volume = {107},
       number = {6},
+      doi = {10.1785/0120170053},
       pages = {2836--2845},
       year = {2017}
     }
@@ -1137,12 +1126,14 @@
   key: PrietoEtAl2011
   journal: 'Comptes Rendus Geoscience (Thematic Issue: Imaging and Monitoring with
     Seismic Noise), 343, pp 600--614'
+  doi: https://doi.org/10.1016/j.crte.2011.03.006
   bibtex: |
     @article{PrietoEtAl2011,
       author = {Prieto, G. A. and Denolle, M. and Lawrence, J. F. and Beroza, G. C.},
       title = {On amplitude carried by the ambient seismic field},
       journal = {Comptes Rendus Geoscience (Thematic Issue: Imaging and Monitoring with Seismic Noise)},
       volume = {343},
+      doi = {https://doi.org/10.1016/j.crte.2011.03.006},
       pages = {600--614},
       year = {2011}
     }

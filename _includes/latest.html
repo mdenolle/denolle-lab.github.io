@@ -1,0 +1,44 @@
+<div class="well">
+  <h4>Latest</h4>
+
+  {% for item in site.data.latest limit:6 %}
+  <div class="latest-item">
+    <div class="latest-date">{{ item.date }}</div>
+    
+    {% if item.image %}
+    <div class="latest-image">
+      {% if item.link %}
+      <a href="{{ item.link }}" target="_blank">
+        <img src="{{ site.url }}{{ site.baseurl }}/{{ item.image }}" alt="{{ item.headline }}" class="img-responsive">
+      </a>
+      {% else %}
+      <img src="{{ site.url }}{{ site.baseurl }}/{{ item.image }}" alt="{{ item.headline }}" class="img-responsive">
+      {% endif %}
+    </div>
+    {% endif %}
+    
+    <div class="latest-content">
+      <p>{{ item.headline }}</p>
+      {% if item.link %}
+      <div>
+        {% if item.type == 'video' %}
+        <a href="{{ item.link }}" target="_blank" class="btn btn-sm btn-primary">
+          <i class="fa fa-youtube-play"></i> Watch Video
+        </a>
+        {% elsif item.type == 'publication' %}
+        <a href="{{ item.link }}" target="_blank" class="btn btn-sm btn-info">
+          <i class="fa fa-file-text-o"></i> Read Paper
+        </a>
+        {% else %}
+        <a href="{{ item.link }}" target="_blank" class="btn btn-sm btn-default">
+          <i class="fa fa-external-link"></i> Learn More
+        </a>
+        {% endif %}
+      </div>
+      {% endif %}
+    </div>
+  </div>
+  {% endfor %}
+
+  <h4><a href="{{ site.url }}{{ site.baseurl }}/latest">... see all Latest Updates</a></h4>
+</div>

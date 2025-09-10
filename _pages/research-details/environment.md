@@ -15,18 +15,14 @@ Ambient seismic noise is the continuous vibration of the Earth caused by various
 ## Research Focus
 
 Our research in environmental seismology spans several key areas:
+* **Soil Hydromechanics** : 
+    We investigate the relationship between soil moisture content and seismic wave velocity. As water saturation in soil changes, so does its mechanical properties, which affects seismic wave propagation. By monitoring these changes, we can track water movement in the subsurface and assess soil conditions crucial for agriculture and water resource management.
 
-### Soil Hydromechanics
+* **Geohazard Monitoring** : 
+    Landslides, soil liquefaction, and other geohazards often occur due to changes in soil conditions, particularly in response to precipitation events. We develop methods to detect surface events from large archives of data to build inventories of these events. We also monitor subsurface hydrological properties in relation to the occurence of these events. Overall, our aim is to monitor and anticipate these hazards to contribute to early warning systems and risk mitigation strategies.
 
-We investigate the relationship between soil moisture content and seismic wave velocity. As water saturation in soil changes, so does its mechanical properties, which affects seismic wave propagation. By monitoring these changes, we can track water movement in the subsurface and assess soil conditions crucial for agriculture and water resource management.
-
-### Geohazard Monitoring
-
-Landslides, soil liquefaction, and other geohazards often occur due to changes in soil conditions, particularly in response to precipitation events. We develop methods to identify precursory signals in ambient seismic noise that could help predict these hazards, contributing to early warning systems and risk mitigation strategies.
-
-### Climate Change Impacts
-
-Climate change alters precipitation patterns and soil moisture regimes. Our research helps quantify these changes and their impacts on soil stability and subsurface water storage, providing valuable data for adaptation and resilience planning.
+* **Climate Change Impacts** :
+    Climate change alters precipitation patterns and soil moisture regimes. Our research helps quantify these changes and their impacts on soil stability and subsurface water storage, providing valuable data for adaptation and resilience planning.
 
 ## Key Papers
 
