@@ -6,6 +6,8 @@ sitemap: false
 permalink: /
 ---
 
+# Geophysics - Geohazards - AI
+
 We aim to transform our understanding of geohazards by combining big data, advanced seismological tools, and insights from climate and hydrological sciences. Our research not only uncovers the processes that drive earthquakes, landslides, and other hazards, but also reveals how a changing climate reshapes Earth’s subsurface and impacts society and the environment.
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
