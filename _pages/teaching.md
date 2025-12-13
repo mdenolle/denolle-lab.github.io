@@ -1,5 +1,5 @@
 ---
-title: "Denolle Quake Lab - Teaching"
+title: "Denolle Lab - Teaching"
 layout: textlay
 excerpt: "Teaching"
 sitemap: false

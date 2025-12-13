@@ -1,7 +1,7 @@
 ---
 title: "News"
 layout: textlay
-excerpt: "Denolle Quake Lab at UW"
+excerpt: "Denolle Lab at UW"
 sitemap: false
 permalink: /allnews
 ---

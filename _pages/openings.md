@@ -1,5 +1,5 @@
 ---
-title: "Denolle Quake Lab - Openings"
+title: "Denolle Lab - Openings"
 layout: textlay
 excerpt: "Openings"
 sitemap: false

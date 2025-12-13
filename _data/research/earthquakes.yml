@@ -1,0 +1,15 @@
+key: earthquakes
+title: Earthquakes
+preview_blurb: We detect and characterize earthquakes using novel observations, large-scale data, and physics-based models.
+summary: >
+  We discover and characterize earthquakes—small and large—using cutting-edge observation techniques,
+  large-scale data, and basic models of their dynamics and wavefields.
+featured: true
+order: 20
+image: /images/researchpic/denolle-lab-quake-header.png
+tags: [tectonic, earthquakes, arrays, source-physics, wavefields]
+links:
+  - text: Overview
+    url: /research/earthquakes/
+  - text: Selected papers
+    url: /publications/#earthquakes

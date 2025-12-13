@@ -1,0 +1,15 @@
+key: environment
+title: Environment
+preview_blurb: Ambient seismic noise reveals soil hydromechanics for water management and geohazard mitigation.
+summary: >
+  We use the ambient seismic field to characterize the hydromechanics of soils,
+  with implications for water resources management and geohazard mitigation.
+featured: true
+order: 10
+image: /images/researchpic/denolle-lab-env-header.png
+tags: [environment, hydrology, soils, ambient-noise, geohazards]
+links:
+  - text: Overview
+    url: /research/environment/
+  - text: Selected papers
+    url: /publications/#environment

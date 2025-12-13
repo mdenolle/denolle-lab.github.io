@@ -147,6 +147,14 @@
   info2: Ambient noise monitoring in Parkfield, CA
   info3: now Ph.D. student at MIT
 
+- name: Nick Smoczyk
+  photo: littlequake.png
+  date: 2022-2023
+  info: Undergraduate 
+  info2: Data mining of volcano-glacio seismic data
+  number_educ: 1
+  education1: BS in University of Minnesota - Duluth
+
 
 - name: Albert Aguilar
   photo: littlequake.png

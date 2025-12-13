@@ -1,3 +1,4 @@
+/* Local Inter variable font and global sans-serif stack */
 @font-face {
   font-family: "Inter";
   src: url("/fonts/Inter/Inter-VariableFont_slnt,wght.ttf") format("truetype-variations");
@@ -8,3 +9,288 @@
 :root { --font-sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, "Noto Sans", sans-serif; }
 html, body { font-family: var(--font-sans); -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 h1, h2, h3, h4, h5, h6 { letter-spacing: -0.015em; }
+
+/* Latest scroll-roll styles */
+.latest-scroll-container {
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.latest-scroll-title {
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #333;
+  text-align: center;
+}
+
+.latest-scroll-wrapper {
+  max-height: 300px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0,0,0,0.2) transparent;
+}
+
+.latest-scroll-wrapper::-webkit-scrollbar {
+  width: 6px;
+}
+
+.latest-scroll-wrapper::-webkit-scrollbar-thumb {
+  background-color: rgba(0,0,0,0.2);
+  border-radius: 3px;
+}
+
+.latest-scroll-item {
+  padding: 12px 8px;
+  border-bottom: 1px solid #eee;
+  transition: background-color 0.2s ease;
+}
+
+.latest-scroll-item:hover {
+  background-color: rgba(0,0,0,0.02);
+}
+
+.latest-scroll-item:last-child {
+  border-bottom: none;
+}
+
+.latest-scroll-date {
+  font-weight: 600;
+  font-size: 13px;
+  color: #565656;
+  margin-bottom: 3px;
+}
+
+.latest-scroll-headline {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.latest-scroll-link {
+  text-align: right;
+}
+
+/* Latest updates section styles */
+.latest-item {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eee;
+}
+
+.latest-item:last-child {
+  border-bottom: none;
+}
+
+.latest-date {
+  font-weight: bold;
+  color: #565656;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.latest-image {
+  margin: 8px 0;
+  max-width: 100%;
+}
+
+.latest-image img {
+  max-width: 100%;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.latest-content p {
+  margin-bottom: 5px;
+}
+
+.latest-content .btn {
+  margin-top: 5px;
+}
+
+/* Latest page specific styles */
+.latest-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.latest-item-full {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.latest-headline {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.latest-links {
+  margin-top: 0.5rem;
+}
+
+@media (min-width: 768px) {
+  .latest-item-full {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .latest-date {
+    width: 100%;
+  }
+  
+  .latest-image {
+    width: 30%;
+    margin-right: 2rem;
+  }
+  
+  .latest-content {
+    width: calc(70% - 2rem);
+  }
+}
+
+.rounded-circle {
+  border-radius: 50% !important;
+  border: 2px solid #eee;
+}
+
+/* Team Overview Styles */
+.team-overview {
+  margin: 30px 0;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.team-overview h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.team-member-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.team-member-bubble {
+  text-align: center;
+  width: 120px;
+  text-decoration: none;
+  color: #333;
+  transition: transform 0.3s ease;
+}
+
+.team-member-bubble:hover {
+  transform: translateY(-5px);
+}
+
+.team-member-bubble img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #fff;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  margin-bottom: 10px;
+}
+
+.team-member-name {
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin-bottom: 4px;
+}
+
+.team-member-title {
+  font-size: 0.75rem;
+  color: #666;
+}
+
+/* Team Portrait Grid Styles */
+.team-portrait-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.team-portrait {
+  text-align: center;
+  width: 130px;
+  display: inline-block;
+  margin: 0 15px 20px;
+}
+
+.team-portrait img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #f5f5f5;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+.team-portrait:hover img {
+  transform: scale(1.05);
+  border-color: #ddd;
+}
+
+.member-name {
+  margin-top: 10px;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #333;
+  max-width: 130px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+}
+
+.team-portrait a {
+  text-decoration: none;
+  display: block;
+}
+
+/* Role text styling */
+.role-text {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #555;
+  margin-top: -5px;
+  margin-bottom: 10px;
+}
+
+/* Navbar brand styling */
+.navbar-brand {
+  padding: 0 15px;
+}
+
+.brand-content {
+  display: flex;
+  align-items: center;
+}
+
+.brand-content img {
+  height: 30px;
+  margin-right: 8px;
+  display: block;
+}
+
+.brand-text {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #333;
+  display: block;
+  line-height: 1;
+}

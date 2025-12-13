@@ -1,0 +1,19 @@
+name: People Page Check
+on:
+  push:
+  pull_request:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+          bundler-cache: true
+      - name: Install deps
+        run: bundle install --path vendor/bundle
+      - name: Build site (GitHub Pages-compatible)
+        run: bundle exec jekyll build --trace
+      - name: Validate People pages
+        run: python3 scripts/check_people.py
