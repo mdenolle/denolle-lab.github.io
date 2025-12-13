@@ -1,0 +1,37 @@
+<div class="latest-scroll-container">
+  <h4 class="latest-scroll-title">Latest Updates</h4>
+  
+  <div class="latest-scroll-wrapper">
+    <div class="latest-scroll">
+      {% for item in site.data.latest limit:5 %}
+        <div class="latest-scroll-item">
+          <div class="latest-scroll-date">{{ item.date }}</div>
+          <div class="latest-scroll-headline">{{ item.headline }}</div>
+          <div class="latest-scroll-link">
+            {% if item.link %}
+              {% if item.type == 'video' %}
+                <a href="{{ item.link }}" target="_blank" class="btn btn-xs btn-primary">
+                  <i class="fa fa-youtube-play"></i> Watch
+                </a>
+              {% elsif item.type == 'publication' %}
+                <a href="{{ item.link }}" target="_blank" class="btn btn-xs btn-info">
+                  <i class="fa fa-file-text-o"></i> Read
+                </a>
+              {% else %}
+                <a href="{{ item.link }}" target="_blank" class="btn btn-xs btn-default">
+                  <i class="fa fa-external-link"></i> View
+                </a>
+              {% endif %}
+            {% endif %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+  
+  <div class="text-center mt-3">
+    <a href="{{ site.url }}{{ site.baseurl }}/latest" class="btn btn-sm btn-default">
+      View All Updates
+    </a>
+  </div>
+</div>

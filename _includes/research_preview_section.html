@@ -1,0 +1,52 @@
+{% comment %}
+Renders exactly 3 featured areas (or first 3 by order if none featured).
+Uses existing _data/research/*.yml files.
+{% endcomment %}
+
+{% assign areas = "" | split: "" %}
+{% for pair in site.data.research %}
+  {% assign area = pair[1] %}
+  {% assign areas = areas | push: area %}
+{% endfor %}
+{% assign featured = areas | where: "featured", true | sort: "order" %}
+{% if featured.size == 0 %}
+  {% assign featured = areas | sort: "order" | slice: 0,3 %}
+{% else %}
+  {% assign featured = featured | slice: 0,3 %}
+{% endif %}
+
+<section class="research-preview reveal-on-scroll" id="research-preview">
+{% if include.title != false %}
+<h2 class="rp-title">{{ include.title | default: "Research Preview" }}</h2>
+{% endif %}
+<div class="preview-grid">
+{% for a in featured %}
+<article class="preview-card">
+{% if a.image %}
+  <img src="{{ a.image }}" alt="{{ a.title }}">
+{% endif %}
+<h3>{{ a.title }}</h3>
+<p class="blurb">
+  {% if a.preview_blurb %}{{ a.preview_blurb }}{% else %}{{ a.summary | truncate: 140 }}{% endif %}
+</p>
+{% assign overview = a.links | where: "text", "Overview" | first %}
+{% if overview %}
+  <a class="cta" href="{{ overview.url }}">Know more →</a>
+{% else %}
+  <a class="cta" href="/research/#{{ a.key }}">Know more →</a>
+{% endif %}
+</article>
+{% endfor %}
+</div>
+</section>
+
+<style>
+.research-preview { margin: 2rem 0; }
+.rp-title { margin: 0 0 .75rem; }
+.preview-grid { display:grid; gap:1.25rem; grid-template-columns:repeat(auto-fit, minmax(260px,1fr)); }
+.preview-card { border:1px solid #eee; border-radius:14px; padding:1rem; background:#fff; }
+.preview-card img { width:100%; height:150px; object-fit:cover; border-radius:10px; margin-bottom:.5rem; }
+.preview-card h3 { margin:.25rem 0 .35rem; }
+.blurb { margin:0 0 .65rem; }
+.cta { display:inline-block; text-decoration:none; border:1px solid #111; border-radius:10px; padding:.4rem .7rem; }
+</style>

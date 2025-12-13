@@ -1,9 +1,25 @@
-- name: Marine Denolle
-  cv: ../downloads/Marine_CV_long.pdf
-  photo: portrait_color_square.png
-  info: Associate Professor
-  email: mdenolle@uw.edu
-  number_educ: 2
-  education1: 2014, Stanford University
-  education2: Postdoc at Scripps Institution of Oceanography - UC San Diego
-
+- id: marine-denolle
+  name: Marine Denolle
+  role: Associate Professor
+  photo: marine-denolle.jpg
+  research_areas: environment, earthquakes, geoscience-ai
+- id: michael-hemmett
+  name: Michael Hemmett
+  role: Graduate Student
+  photo: michael-hemmett.jpg
+  research_areas: earthquakes
+- id: yiyu-ni
+  name: Yiyu Ni
+  role: Graduate Student
+  photo: yiyu-ni.jpg
+  research_areas: geoscience-ai, earthquakes
+- id: lydia-kelley
+  name: Lydia Kelley
+  role: Undergraduate Student
+  photo: lydia.jpg
+  research_areas: earthquakes
+- id: hiroto-bito
+  name: Hiroto Bito
+  role: Undergraduate Student
+  photo: hiroto_bito.jpg
+  research_areas: earthquakes, geoscience-ai

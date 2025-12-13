@@ -1,0 +1,51 @@
+---
+layout: default
+---
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-12">
+      <h1>Latest Updates</h1>
+      <div class="latest-container">
+        {% for item in site.data.latest %}
+        <div class="latest-item-full">
+          <div class="latest-date">{{ item.date }}</div>
+          
+          {% if item.image %}
+          <div class="latest-image">
+            {% if item.link %}
+            <a href="{{ item.link }}" target="_blank">
+              <img src="{{ site.url }}{{ site.baseurl }}/{{ item.image }}" alt="{{ item.headline }}" class="img-responsive">
+            </a>
+            {% else %}
+            <img src="{{ site.url }}{{ site.baseurl }}/{{ item.image }}" alt="{{ item.headline }}" class="img-responsive">
+            {% endif %}
+          </div>
+          {% endif %}
+          
+          <div class="latest-content">
+            <div class="latest-headline">{{ item.headline }}</div>
+            {% if item.link %}
+            <div class="latest-links">
+              {% if item.type == 'video' %}
+              <a href="{{ item.link }}" target="_blank" class="btn btn-primary btn-sm">
+                <i class="fa fa-youtube-play"></i> Watch Video
+              </a>
+              {% elsif item.type == 'publication' %}
+              <a href="{{ item.link }}" target="_blank" class="btn btn-info btn-sm">
+                <i class="fa fa-file-text-o"></i> Read Paper
+              </a>
+              {% else %}
+              <a href="{{ item.link }}" target="_blank" class="btn btn-default btn-sm">
+                <i class="fa fa-external-link"></i> Learn More
+              </a>
+              {% endif %}
+            </div>
+            {% endif %}
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
