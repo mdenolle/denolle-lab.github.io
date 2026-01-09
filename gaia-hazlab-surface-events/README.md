@@ -15,11 +15,27 @@ This repository provides a scaffold for analyzing and documenting surface event 
    ```
 2. Install the package in editable mode:
    ```bash
-   pip install -e .
+   python -m pip install -e .
    ```
 3. Run the tests:
    ```bash
    pytest
+   ```
+
+## Pixi setup
+Pixi provides a cross-platform environment and a `dask` app entrypoint.
+
+1. Install the environment:
+   ```bash
+   pixi install
+   ```
+2. Install the package in editable mode:
+   ```bash
+   pixi run python -m pip install -e .
+   ```
+3. Run the Dask app:
+   ```bash
+   pixi run dask --help
    ```
 
 ## License

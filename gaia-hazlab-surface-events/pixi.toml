@@ -1,0 +1,20 @@
+[project]
+name = "gaia-hazlab-surface-events"
+version = "0.0.1"
+description = "Scaffold for GAIA HazLab surface event analysis."
+channels = ["conda-forge"]
+platforms = ["linux-64", "osx-64", "osx-arm64", "win-64"]
+
+[dependencies]
+python = "3.11.*"
+pip = "*"
+dask = "*"
+
+[feature.dev.dependencies]
+pytest = ">=7"
+
+[environments]
+default = { features = ["dev"] }
+
+[apps]
+dask = { cmd = "dask" }
